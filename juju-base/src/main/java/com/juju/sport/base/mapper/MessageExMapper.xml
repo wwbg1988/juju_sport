@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.base.mapper.MessageExMapper">
+	<select id="selectSysMessages" resultMap="com.juju.sport.base.mapper.MessagesMapper.BaseResultMap">
+		select *
+		from juju_messages
+	    where msg_type = 1
+		order by msg_time desc
+		limit  #{starNum},#{pageSize}
+	</select>
+	
+	<select id="selectStadiumMessages" resultMap="com.juju.sport.base.mapper.MessagesMapper.BaseResultMap">
+		select *
+		from juju_messages
+	    where msg_type = 2
+		order by msg_time desc
+		limit  #{starNum},#{pageSize}
+	</select>
+
+</mapper>

@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+.green td {
+	background: #A6FFA6 !important
+}
+
+.red td {
+	background: #F08080!important
+}

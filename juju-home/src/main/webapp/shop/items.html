@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>产品展示</title>
+    <script type="text/javascript" src="http://dev.ai9love.com/static/scripts/jquery-1.7.2.min.js"></script>
+    <script>
+        $(function(){
+            $('#btn_showShop').click(function(){
+                $.ajax({
+                    url:'/shop/queryItem.do',
+                    type:'post',
+                    dataType:'json',
+                    data:{currPage:1,pageSize:20},
+                    //data:{sellerId:$('#sellerId').val(),mobileNo:$('#mobileNo').val(),telephone:$('#telephone').val(),appointTime:$('#appointTime').val(),memo:$('#memo').val()},
+                    success:function(data){
+                        var divObj = $("#view_showShop");
+                        var tdHtml="";
+                        $.each(data.results, function(i,val){
+                            tdHtml += "<tr>";
+                            tdHtml +="<td>"+val.itemName+"</td>";
+                            tdHtml +="<td>"+val.itemMarketPrice+"</td>";
+                            tdHtml +="<td>"+val.itemFactPrice+"</td>";
+                            tdHtml +="<td>"+val.itemFinalPrice+"</td>";
+                            tdHtml +="<td><input name='' value='预约' type='button' onclick='appoint("+val.id+");'/></td>";
+                            tdHtml +="</tr>";
+                        });
+                        divObj.html(tdHtml);
+                    }
+                })
+            });
+        });
+
+        var appoint = function(itemId){
+            var data_param = {itemId:itemId};
+            $.ajax({
+                url:'/appoint/save.do',
+                type:'post',
+                dataType:'json',
+                data:data_param,
+                success:function(data){
+                    alert(data);
+                }
+            })
+        };
+    </script>
+</head>
+<body>
+<div id="head">
+    <p><h3>产品展示</h3></p>
+</div>
+<style>
+    td {
+        padding:5px;
+    }
+</style>
+<div id="main">
+    <input id="btn_showShop" value="查看产品" type="button"/>
+
+    <div id="view_showShop">
+
+    </div>
+
+
+</div>
+</body>
+</html>

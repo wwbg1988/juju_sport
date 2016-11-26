@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.stadium.mapper.VenuesSportExMapper">
+	<select id="selectVenusSportInfo" resultType="com.juju.sport.base.dto.SportTypeDto" parameterType="java.lang.String">
+	 select c.id as id,c.sport_name as sportName  from juju_venues_info a 
+	 INNER JOIN  juju_venues_sport_type_mapping b
+	 ON a.id = b.venues_info_id 
+	 INNER JOIN juju_sport_type c 
+	 ON b.sport_type_id = c.id 
+	 WHERE a.id = #{id} 
+	 AND b.stat = 1
+	</select>
+	
+	<select id="selectVenusServiceInfo" resultType="com.juju.sport.base.dto.ServiceTypeDto" parameterType="java.lang.String">
+	 select c.id as id,c.service_name as serviceName  from juju_venues_info a 
+	 INNER JOIN  juju_venues_service_type_mapping b
+	 ON a.id = b.venues_info_id 
+	 INNER JOIN juju_service_type c 
+	 ON b.service_type_id = c.id 
+	 WHERE a.id = #{id}
+	 AND b.stat = 1
+	</select>
+</mapper>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.user.mapper.TeamExMapper" >
+	
+	<select id="findTeamByPage" resultType="com.juju.sport.user.dto.TeamDto">
+	 	select team.id, team.team_name teamName, team.thumbnail thumbnail,team.war_type warType, team.sport_id sportId, team.contact contact, 
+		team.war_desc warDesc, team.order_id orderId, team.user_account_id userAccountId, team.max_num maxNum, team.join_num joinNum, team.create_time createTime, 
+		team.last_update_time lastUpdateTime, team.stat, account.user_account userAccountName, type.sport_name sportName 
+		from 
+		(select * 
+			from juju_team  where 1=1 
+			<include refid="where_clause_1" /> 
+			order by create_time asc
+		) team 
+		left join juju_user_account account on team.user_account_id = account.id and account.stat=1 
+		left join juju_sport_type type on team.sport_id = type.id and type.stat = 1		
+		limit  #{page.startNum}, #{page.pageSize}
+	 </select>
+	
+	<select id="countTeam" resultType="java.lang.Long">
+		select count(*) from 
+		(select * 
+			from juju_team where 1=1  
+			<include refid="where_clause_1" />
+		) team 
+		left join juju_user_account account on team.user_account_id = account.id and account.stat=1 
+		left join juju_sport_type type on team.sport_id = type.id and type.stat = 1		
+	</select>
+	
+	 <sql id="where_clause_1" >
+	 	<if test="query.teamName != null" >
+	 		and team_name like #{query.teamName}
+	 	</if>
+		<if test="query.sportType != null" >
+			and sport_id = #{query.sportType} 
+		</if>	
+	 </sql>
+</mapper>

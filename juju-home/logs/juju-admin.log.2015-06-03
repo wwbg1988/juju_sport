@@ -1,0 +1,1407 @@
+[WARN ][2015-06-03 06:45:31,117] - [Dominus] exception caught on transport layer [[id: 0x276f079d]], closing connection
+java.net.SocketException: Software caused connection abort: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 06:45:31,122] - [Dominus] exception caught on transport layer [[id: 0xef0619ad]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 06:45:31,136] - [Dominus] exception caught on transport layer [[id: 0x24d74abf]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 06:45:31,136] - [Dominus] exception caught on transport layer [[id: 0x6a956a72]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 06:45:31,136] - [Dominus] exception caught on transport layer [[id: 0x0c771530]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2015-06-03 08:54:17,999] - Root WebApplicationContext: initialization started
+[INFO ][2015-06-03 08:54:18,094] - Refreshing Root WebApplicationContext: startup date [Wed Jun 03 08:54:18 CST 2015]; root of context hierarchy
+[INFO ][2015-06-03 08:54:18,136] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2015-06-03 08:54:18,734] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/persistence.xml]
+[INFO ][2015-06-03 08:54:18,794] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2015-06-03 08:54:18,814] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2015-06-03 08:54:18,824] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/elasticsearch.xml]
+[INFO ][2015-06-03 08:54:19,406] - Loading properties file from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/application.properties]
+[INFO ][2015-06-03 08:54:19,753] - Loading properties file from class path resource [application.properties]
+[INFO ][2015-06-03 08:54:22,941] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2015-06-03 08:54:23,225] - [Overmind] loaded [], sites []
+[INFO ][2015-06-03 08:54:23,845] - adding transport node : 192.168.1.156:9300
+[ERROR][2015-06-03 08:55:06,264] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[ERROR][2015-06-03 08:55:06,325] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[INFO ][2015-06-03 08:55:06,385] - Root WebApplicationContext: initialization completed in 48386 ms
+[INFO ][2015-06-03 08:55:06,385] - ###### juju-home application start ######
+[INFO ][2015-06-03 08:55:06,485] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2015-06-03 08:55:06,485] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Jun 03 08:55:06 CST 2015]; parent: Root WebApplicationContext
+[INFO ][2015-06-03 08:55:06,485] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2015-06-03 08:55:07,081] - Mapped URL path [/address/list.do] onto handler 'addressesController'
+[INFO ][2015-06-03 08:55:07,082] - Mapped URL path [/address/listByParentId.do] onto handler 'addressesController'
+[INFO ][2015-06-03 08:55:07,082] - Mapped URL path [/api/success.do] onto handler 'alipayController'
+[INFO ][2015-06-03 08:55:07,082] - Mapped URL path [/api/notifyUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-03 08:55:07,082] - Mapped URL path [/api/returnUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-03 08:55:07,082] - Mapped URL path [/api/saveCard.do] onto handler 'cardController'
+[INFO ][2015-06-03 08:55:07,083] - Mapped URL path [/complaint/insertComplaint.do] onto handler 'complaintController'
+[INFO ][2015-06-03 08:55:07,083] - Mapped URL path [/draw/drawRandom.do] onto handler 'drawRandomController'
+[INFO ][2015-06-03 08:55:07,083] - Mapped URL path [/email/send.do] onto handler 'emailController'
+[INFO ][2015-06-03 08:55:07,083] - Mapped URL path [/email/validate.do] onto handler 'emailController'
+[INFO ][2015-06-03 08:55:07,083] - Mapped URL path [/exchange/query.do] onto handler 'exchangeController'
+[INFO ][2015-06-03 08:55:07,083] - Mapped URL path [/exchange/exchange.do] onto handler 'exchangeController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/family/getSpecifications.do] onto handler 'familyController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/family/getSportExaminationList.do] onto handler 'familyController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/family/getSportIntroductionList.do] onto handler 'familyController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/family/getSportIntroductionListAll.do] onto handler 'familyController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/family/getSportIntroductionDetail.do] onto handler 'familyController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/family/getHeath.do] onto handler 'familyController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/family/getLetter.do] onto handler 'familyController'
+[INFO ][2015-06-03 08:55:07,084] - Mapped URL path [/api/rest/checkUser.do] onto handler 'deviceUsersController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/rest/venues/info.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/rest/card/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/rest/phone/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/rest/tdc/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/home/index.do] onto handler 'indexController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/home/newsList.do] onto handler 'indexController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/home/eventList.do] onto handler 'indexController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/m/notifyUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/m/returnUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-03 08:55:07,085] - Mapped URL path [/api/m/code/create.do] onto handler 'dimensionCodeController'
+[INFO ][2015-06-03 08:55:07,086] - Mapped URL path [/api/m/messages/loadMessages.do] onto handler 'messageMController'
+[INFO ][2015-06-03 08:55:07,086] - Mapped URL path [/api/m/orderBuy/buy.do] onto handler 'orderBuyMController'
+[INFO ][2015-06-03 08:55:07,086] - Mapped URL path [/api/m/preOrder/data.do] onto handler 'preOrderMController'
+[INFO ][2015-06-03 08:55:07,086] - Mapped URL path [/api/m/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-03 08:55:07,086] - Mapped URL path [/api/m/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-03 08:55:07,086] - Mapped URL path [/api/m/SMS/send.do] onto handler 'smsMController'
+[INFO ][2015-06-03 08:55:07,086] - Mapped URL path [/api/m/team/findTeams.do] onto handler 'teamMController'
+[INFO ][2015-06-03 08:55:07,087] - Mapped URL path [/api/m/upload/deal.do] onto handler 'uploadMController'
+[INFO ][2015-06-03 08:55:07,087] - Mapped URL path [/api/m/umanages/register.do] onto handler 'userMController'
+[INFO ][2015-06-03 08:55:07,087] - Mapped URL path [/api/m/umanages/login.do] onto handler 'userMController'
+[INFO ][2015-06-03 08:55:07,087] - Mapped URL path [/api/m/venue/query.do] onto handler 'venueMController'
+[INFO ][2015-06-03 08:55:07,087] - Mapped URL path [/api/m/version/query.do] onto handler 'versionController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/message/findOrderByMess.do] onto handler 'messageController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/message/findMessByOwner.do] onto handler 'messageController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/message/findVenusMess.do] onto handler 'messageController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/message/insert.do] onto handler 'messageController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/message/findComplaint.do] onto handler 'messageController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/myMessage/findMyMessageby.do] onto handler 'myMessageController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/orderBuy/{orderId}.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/orderBuy/buy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/orderBuy/checkBuy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 08:55:07,088] - Mapped URL path [/api/orderBuy/payWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/api/orderBuy/teamWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/api/orderBuy/orderWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/order/operation.do] onto handler 'orderController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/order/userList.do] onto handler 'orderController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/order/registration.do] onto handler 'orderController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/order/items/list.do] onto handler 'orderController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/order/items/search.do] onto handler 'orderController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/order/showRaceInfos.do] onto handler 'orderController'
+[INFO ][2015-06-03 08:55:07,089] - Mapped URL path [/pay/index.do] onto handler 'payController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/preOrder/dateList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/preOrder/weatherList.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/race/findAll.do] onto handler 'raceController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/race/loadRaceScore.do] onto handler 'raceController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/race/ajaxJumpInfos.do] onto handler 'raceController'
+[INFO ][2015-06-03 08:55:07,090] - Mapped URL path [/race/event_info.do] onto handler 'raceController'
+[INFO ][2015-06-03 08:55:07,091] - Mapped URL path [/race/poly_event.do] onto handler 'raceController'
+[INFO ][2015-06-03 08:55:07,091] - Mapped URL path [/race/findDetail.do] onto handler 'raceController'
+[INFO ][2015-06-03 08:55:07,091] - Mapped URL path [/serviceType/list.do] onto handler 'serviceTypeController'
+[INFO ][2015-06-03 08:55:07,091] - Mapped URL path [/SMS/send.do] onto handler 'SMSController'
+[INFO ][2015-06-03 08:55:07,091] - Mapped URL path [/SMS/validate.do] onto handler 'SMSController'
+[INFO ][2015-06-03 08:55:07,091] - Mapped URL path [/SMS/validatePhone.do] onto handler 'SMSController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/list.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/save.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/delete.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/#.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/findUpdateInfo.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/findAll.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/jumpInfos.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/updateSpaceMaster.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/update.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/findSearch.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/insertSave.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,092] - Mapped URL path [/space/findOpen.do] onto handler 'spaceController'
+[INFO ][2015-06-03 08:55:07,093] - Mapped URL path [/sportType/list.do] onto handler 'sportTypeController'
+[INFO ][2015-06-03 08:55:07,093] - Mapped URL path [/sportType/findAll.do] onto handler 'sportTypeController'
+[INFO ][2015-06-03 08:55:07,093] - Mapped URL path [/sportType/findByStad] onto handler 'sportTypeController'
+[INFO ][2015-06-03 08:55:07,093] - Mapped URL path [/sportType/findByStad.*] onto handler 'sportTypeController'
+[INFO ][2015-06-03 08:55:07,093] - Mapped URL path [/sportType/findByStad/] onto handler 'sportTypeController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/{ownerAccountId}.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/addOrUpdateStadiumInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/showVenuesInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/findvenuesMessage.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/message.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/findNameBySportType.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/findChooseByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/findStadByName.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/jumpInfos.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/registerSite.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/findStadByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/stadium/showVenues.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 08:55:07,094] - Mapped URL path [/api/temp/upload.do] onto handler 'tempUploadController'
+[INFO ][2015-06-03 08:55:07,095] - Mapped URL path [/api//upload.do] onto handler 'uploadController'
+[INFO ][2015-06-03 08:55:07,095] - Mapped URL path [/umanages/register.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,095] - Mapped URL path [/umanages/addOrUpdateUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/regUserByThird.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/checkrepeat.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/drawRandom.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/login.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/showUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/loadEmail.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/umanages.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/check_OPW.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/loadInfo.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/loginout.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,096] - Mapped URL path [/umanages/modifyPwd.do] onto handler 'userController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/join.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/save.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/cancel.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/showMembersInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/list.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/findBy.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/findTeams.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/modify.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/joinlist.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/showInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,097] - Mapped URL path [/user/team/releaseFright.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 08:55:07,103] - FrameworkServlet 'appServlet': initialization completed in 618 ms
+[INFO ][2015-06-03 10:11:36,416] - {"accessTime":"2015-06-03 10:11:36","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:11:36,416] - {"accessTime":"2015-06-03 10:11:36","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 10:11:36,416] - {"accessTime":"2015-06-03 10:11:36","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 10:11:36,416] - {"accessTime":"2015-06-03 10:11:36","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 10:11:36,416] - {"accessTime":"2015-06-03 10:11:36","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:11:36,416] - {"accessTime":"2015-06-03 10:11:36","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433297496030"]}}
+[INFO ][2015-06-03 10:11:36,465] - slave
+[INFO ][2015-06-03 10:11:36,485] - slave
+[INFO ][2015-06-03 10:11:36,487] - slave
+[INFO ][2015-06-03 10:11:36,488] - slave
+[INFO ][2015-06-03 10:11:36,488] - slave
+[DEBUG][2015-06-03 10:11:37,046] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:37,046] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:37,046] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:37,049] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 10:11:37,049] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 10:11:37,049] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:11:37,061] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:37,061] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:11:37,063] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:37,063] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 10:11:37,074] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:37,074] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 10:11:37,074] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 10:11:37,074] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 10:11:37,074] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 10:11:37,094] - <==      Total: 17
+[DEBUG][2015-06-03 10:11:37,094] - <==      Total: 3
+[DEBUG][2015-06-03 10:11:37,095] - <==      Total: 15
+[DEBUG][2015-06-03 10:11:37,097] - <==      Total: 10
+[DEBUG][2015-06-03 10:11:37,097] - <==      Total: 17
+[INFO ][2015-06-03 10:11:37,118] - slave
+[DEBUG][2015-06-03 10:11:37,122] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:37,122] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:11:37,123] - ==> Parameters: 1(Integer), 2(Integer)
+[INFO ][2015-06-03 10:11:37,124] - slave
+[DEBUG][2015-06-03 10:11:37,125] - <==      Total: 1
+[DEBUG][2015-06-03 10:11:37,126] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:37,126] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:11:37,127] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:37,129] - <==      Total: 1
+[INFO ][2015-06-03 10:11:58,166] - {"accessTime":"2015-06-03 10:11:58","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:11:58,167] - slave
+[INFO ][2015-06-03 10:11:58,167] - {"accessTime":"2015-06-03 10:11:58","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:11:58,168] - slave
+[INFO ][2015-06-03 10:11:58,170] - {"accessTime":"2015-06-03 10:11:58","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:11:58,170] - {"accessTime":"2015-06-03 10:11:58","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 10:11:58,170] - slave
+[INFO ][2015-06-03 10:11:58,172] - {"accessTime":"2015-06-03 10:11:58","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:11:58,173] - slave
+[DEBUG][2015-06-03 10:11:58,174] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,174] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:11:58,174] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,178] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,178] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:11:58,178] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,179] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,179] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,179] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:11:58,179] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:11:58,183] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,183] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,187] - <==      Total: 10
+[DEBUG][2015-06-03 10:11:58,191] - <==      Total: 10
+[DEBUG][2015-06-03 10:11:58,192] - <==      Total: 10
+[DEBUG][2015-06-03 10:11:58,193] - <==      Total: 10
+[INFO ][2015-06-03 10:11:58,196] - slave
+[INFO ][2015-06-03 10:11:58,198] - slave
+[INFO ][2015-06-03 10:11:58,198] - slave
+[INFO ][2015-06-03 10:11:58,199] - slave
+[DEBUG][2015-06-03 10:11:58,200] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,200] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,200] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:11:58,200] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:11:58,200] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,201] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,202] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,202] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:11:58,202] - <==      Total: 1
+[DEBUG][2015-06-03 10:11:58,202] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:11:58,202] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:11:58,202] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,203] - <==      Total: 1
+[DEBUG][2015-06-03 10:11:58,203] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 10:11:58,204] - <==      Total: 1
+[DEBUG][2015-06-03 10:11:58,204] - <==      Total: 1
+[INFO ][2015-06-03 10:12:35,306] - {"accessTime":"2015-06-03 10:12:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433297555254"]}}
+[INFO ][2015-06-03 10:12:35,307] - slave
+[INFO ][2015-06-03 10:12:35,309] - {"accessTime":"2015-06-03 10:12:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:12:35,309] - {"accessTime":"2015-06-03 10:12:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 10:12:35,310] - slave
+[INFO ][2015-06-03 10:12:35,310] - {"accessTime":"2015-06-03 10:12:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 10:12:35,311] - slave
+[INFO ][2015-06-03 10:12:35,311] - slave
+[INFO ][2015-06-03 10:12:35,313] - {"accessTime":"2015-06-03 10:12:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:12:35,313] - {"accessTime":"2015-06-03 10:12:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-03 10:12:35,313] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:12:35,314] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:12:35,315] - ==> Parameters: 1(Integer), 1(Integer)
+[INFO ][2015-06-03 10:12:35,315] - slave
+[DEBUG][2015-06-03 10:12:35,316] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:12:35,317] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 10:12:35,318] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:12:35,318] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 10:12:35,318] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 10:12:35,319] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 10:12:35,323] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:12:35,323] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 10:12:35,323] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 10:12:35,325] - <==      Total: 10
+[DEBUG][2015-06-03 10:12:35,326] - <==      Total: 17
+[DEBUG][2015-06-03 10:12:35,326] - <==      Total: 15
+[DEBUG][2015-06-03 10:12:35,329] - <==      Total: 3
+[DEBUG][2015-06-03 10:12:35,330] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:12:35,330] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[INFO ][2015-06-03 10:12:35,332] - slave
+[DEBUG][2015-06-03 10:12:35,334] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 10:12:35,339] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:12:35,339] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:12:35,339] - ==> Parameters: 1(Integer), 1(Integer)
+[INFO ][2015-06-03 10:12:35,340] - slave
+[DEBUG][2015-06-03 10:12:35,342] - <==      Total: 17
+[DEBUG][2015-06-03 10:12:35,343] - <==      Total: 1
+[DEBUG][2015-06-03 10:12:35,344] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 10:12:35,344] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 10:12:35,345] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 10:12:35,347] - <==      Total: 1
+[INFO ][2015-06-03 10:59:48,729] - {"accessTime":"2015-06-03 10:59:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433300388630"]}}
+[INFO ][2015-06-03 10:59:48,729] - {"accessTime":"2015-06-03 10:59:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 10:59:48,729] - {"accessTime":"2015-06-03 10:59:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:59:48,729] - {"accessTime":"2015-06-03 10:59:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 10:59:48,729] - {"accessTime":"2015-06-03 10:59:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 10:59:48,729] - slave
+[INFO ][2015-06-03 10:59:48,729] - {"accessTime":"2015-06-03 10:59:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 10:59:48,739] - slave
+[INFO ][2015-06-03 10:59:48,739] - slave
+[INFO ][2015-06-03 10:59:48,739] - slave
+[INFO ][2015-06-03 10:59:48,739] - slave
+[INFO ][2015-06-03 11:02:45,227] - {"accessTime":"2015-06-03 11:02:45","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433300565011"]}}
+[INFO ][2015-06-03 11:02:45,227] - {"accessTime":"2015-06-03 11:02:45","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:02:45,227] - slave
+[INFO ][2015-06-03 11:02:45,227] - slave
+[INFO ][2015-06-03 11:02:45,237] - {"accessTime":"2015-06-03 11:02:45","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:02:45,237] - slave
+[INFO ][2015-06-03 11:02:45,248] - {"accessTime":"2015-06-03 11:02:45","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 11:02:45,248] - slave
+[INFO ][2015-06-03 11:02:45,258] - {"accessTime":"2015-06-03 11:02:45","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:02:45,258] - slave
+[INFO ][2015-06-03 11:02:45,268] - {"accessTime":"2015-06-03 11:02:45","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-03 11:02:45,268] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:45,268] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:02:45,268] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:45,268] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 11:02:45,268] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:02:45,268] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:02:45,278] - <==      Total: 15
+[DEBUG][2015-06-03 11:02:45,278] - <==      Total: 10
+[INFO ][2015-06-03 11:02:45,288] - slave
+[DEBUG][2015-06-03 11:02:45,288] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:45,288] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 11:02:45,288] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 11:02:45,308] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:45,308] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:02:45,308] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:02:45,308] - <==      Total: 17
+[DEBUG][2015-06-03 11:02:45,308] - <==      Total: 1
+[DEBUG][2015-06-03 11:02:45,318] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:45,328] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:02:45,328] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:02:45,328] - <==      Total: 3
+[INFO ][2015-06-03 11:02:45,338] - slave
+[DEBUG][2015-06-03 11:02:45,358] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:45,358] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:02:45,358] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:02:45,358] - <==      Total: 1
+[INFO ][2015-06-03 11:02:46,888] - {"accessTime":"2015-06-03 11:02:46","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433300566648"]}}
+[INFO ][2015-06-03 11:02:46,888] - slave
+[INFO ][2015-06-03 11:02:46,888] - {"accessTime":"2015-06-03 11:02:46","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:02:46,888] - {"accessTime":"2015-06-03 11:02:46","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:02:46,888] - slave
+[INFO ][2015-06-03 11:02:46,888] - slave
+[INFO ][2015-06-03 11:02:46,888] - {"accessTime":"2015-06-03 11:02:46","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 11:02:46,888] - slave
+[INFO ][2015-06-03 11:02:46,888] - {"accessTime":"2015-06-03 11:02:46","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:02:46,888] - {"accessTime":"2015-06-03 11:02:46","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:02:46,888] - slave
+[DEBUG][2015-06-03 11:02:46,888] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:46,888] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 11:02:46,888] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:46,888] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 11:02:46,888] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:02:46,888] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:02:46,898] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:46,898] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:02:46,898] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:46,908] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 11:02:46,909] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 11:02:46,909] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:02:46,909] - <==      Total: 17
+[DEBUG][2015-06-03 11:02:46,909] - <==      Total: 15
+[DEBUG][2015-06-03 11:02:46,919] - <==      Total: 17
+[DEBUG][2015-06-03 11:02:46,919] - <==      Total: 10
+[DEBUG][2015-06-03 11:02:46,919] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:46,919] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:02:46,919] - ==> Parameters: 1(Integer), 2(Integer)
+[INFO ][2015-06-03 11:02:46,929] - slave
+[DEBUG][2015-06-03 11:02:46,929] - <==      Total: 3
+[DEBUG][2015-06-03 11:02:46,929] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:46,929] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:02:46,929] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:02:46,929] - <==      Total: 1
+[INFO ][2015-06-03 11:02:46,939] - slave
+[DEBUG][2015-06-03 11:02:46,939] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:46,939] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:02:46,939] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:02:46,939] - <==      Total: 1
+[DEBUG][2015-06-03 11:02:48,239] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:48,239] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 11:02:48,249] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:02:48,249] - <==      Total: 17
+[INFO ][2015-06-03 11:02:58,440] - {"accessTime":"2015-06-03 11:02:58","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/stadium/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/stadium/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contextLength":-1,"method":"GET","parameterMap":{}}
+[INFO ][2015-06-03 11:02:59,111] - slave
+[DEBUG][2015-06-03 11:02:59,131] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:59,131] - ==>  Preparing: select id, user_account_id, provinceId, cityId, countryId, address, contacts, mobile_no, descs, charge_type, venue_type, other_services, email, nick_name, user_level, user_score, create_time, last_update_time, stat, venue_img, max_num, x_location, y_location from juju_venues_info WHERE ( stat = ? and user_account_id = ? ) 
+[DEBUG][2015-06-03 11:02:59,131] - ==> Parameters: 1(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:02:59,151] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:59,151] - ==>  Preparing: select id, service_name serviceName, create_time createTime, last_update_time lastUpdateTime, stat from juju_service_type where stat=1 and id in ( select service_type_id from juju_venues_service_type_mapping where stat=1 and venues_info_id=? ) 
+[DEBUG][2015-06-03 11:02:59,151] - ==> Parameters: 4c3d6d20-1d98-43f6-95a9-ad6573c28fa6(String)
+[DEBUG][2015-06-03 11:02:59,151] - <==      Total: 2
+[DEBUG][2015-06-03 11:02:59,151] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:02:59,151] - ==>  Preparing: select id, sport_name sportName, create_time createTime, last_update_time lastUpdateTime, stat from juju_sport_type type where stat =1 and type.id in ( select sport_type_id from juju_venues_sport_type_mapping where stat=1 and venues_info_id=? ) 
+[DEBUG][2015-06-03 11:02:59,151] - ==> Parameters: 4c3d6d20-1d98-43f6-95a9-ad6573c28fa6(String)
+[DEBUG][2015-06-03 11:02:59,161] - <==      Total: 15
+[DEBUG][2015-06-03 11:02:59,161] - <==      Total: 1
+[INFO ][2015-06-03 11:02:59,741] - {"accessTime":"2015-06-03 11:02:59","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/draw/drawRandom.do","requestURI":"/draw/drawRandom.do","contextPath":"","contextLength":-1,"method":"GET","parameterMap":{}}
+[INFO ][2015-06-03 11:02:59,952] - {"accessTime":"2015-06-03 11:02:59","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:02:59,952] - {"accessTime":"2015-06-03 11:02:59","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/dateList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/dateList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:02:59,952] - {"accessTime":"2015-06-03 11:02:59","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":72,"method":"POST","parameterMap":{"orderTime":["2015-06-03"],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:02:59,972] - slave
+[INFO ][2015-06-03 11:02:59,972] - {"accessTime":"2015-06-03 11:02:59","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/message/findMessByOwner.do","requestURI":"/api/message/findMessByOwner.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":67,"method":"POST","parameterMap":{"pageSize":["10"],"msgToId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"],"currPage":["1"]}}
+[INFO ][2015-06-03 11:02:59,982] - {"accessTime":"2015-06-03 11:02:59","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":89,"method":"POST","parameterMap":{"sjWeek":["3"],"orderTime":["2015-06-03"],"sjTime":[""],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:02:59,982] - slave
+[INFO ][2015-06-03 11:02:59,992] - {"accessTime":"2015-06-03 11:02:59","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:03:00,014] - slave
+[DEBUG][2015-06-03 11:03:00,015] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,015] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:00,019] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:00,026] - <==      Total: 11
+[DEBUG][2015-06-03 11:03:00,047] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,047] - ==>  Preparing: select id, msg_type, msg_from_id, msg_to_id, msg_content, msg_time, attachment, msg_status, create_time, last_update_time, stat, user_account, msg_score, msg_resource from juju_messages WHERE ( msg_type = ? and msg_to_id = ? and stat = ? ) order by create_time desc limit 0, 10 
+[INFO ][2015-06-03 11:03:00,048] - slave
+[DEBUG][2015-06-03 11:03:00,048] - ==> Parameters: 5(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:00,067] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,068] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? and space_id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) 
+[DEBUG][2015-06-03 11:03:00,069] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,069] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:00,069] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:00,071] - ==> Parameters: 3(Short), 1(Integer), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 226729a5-1108-4014-b540-46fd231c3a52(String), 2dec5007-435c-4473-9ab7-f4d5e5a29533(String), 3ea902df-c6e8-42ab-ba03-e3e9459afe0d(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), 675fe0d6-fa25-4666-9760-d66dcb1104d4(String), 6bc9ecc3-6f5e-4bb9-b603-0b741a57b798(String), 6e0a977e-9d0b-4874-b5d9-bde3d54560c4(String), 736d8110-3be9-464c-a992-ed4388c814fa(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 9bb973fa-6ea5-4d7e-8930-b558ccfc0e56(String)
+[DEBUG][2015-06-03 11:03:00,078] - <==      Total: 11
+[DEBUG][2015-06-03 11:03:00,084] - <==      Total: 7
+[INFO ][2015-06-03 11:03:00,084] - slave
+[DEBUG][2015-06-03 11:03:00,104] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,104] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:00,104] - ==> Parameters: 3(Short), 1(Integer)
+[DEBUG][2015-06-03 11:03:00,114] - <==      Total: 10
+[DEBUG][2015-06-03 11:03:00,124] - <==      Total: 10
+[INFO ][2015-06-03 11:03:00,172] - slave
+[INFO ][2015-06-03 11:03:00,177] - slave
+[DEBUG][2015-06-03 11:03:00,186] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,186] - ==>  Preparing: select count(*) from juju_messages WHERE ( msg_type = ? and msg_to_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:00,186] - ==> Parameters: 5(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:00,188] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,188] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) and user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:00,189] - ==> Parameters: 6bc9ecc3-6f5e-4bb9-b603-0b741a57b798(String), 04e3e17c-b7a9-4619-b6da-0ab39cda3e0a(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), ed18d513-f721-4c0e-bdc7-a4b185ca8a2f(String), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 736d8110-3be9-464c-a992-ed4388c814fa(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 226729a5-1108-4014-b540-46fd231c3a52(String), 7e31044a-68a4-4863-a97e-bfe8e75b70a2(String), 9bb973fa-6ea5-4d7e-8930-b558ccfc0e56(String), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:00,189] - <==      Total: 1
+[DEBUG][2015-06-03 11:03:00,194] - <==      Total: 7
+[INFO ][2015-06-03 11:03:00,201] - slave
+[DEBUG][2015-06-03 11:03:00,211] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,212] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,212] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:00,236] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,246] - slave
+[DEBUG][2015-06-03 11:03:00,246] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,246] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,246] - ==> Parameters: 6351f529-ac7a-4e86-b3b1-5f7366445b78(String)
+[DEBUG][2015-06-03 11:03:00,256] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,256] - slave
+[DEBUG][2015-06-03 11:03:00,266] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,266] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,266] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:00,276] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,276] - slave
+[DEBUG][2015-06-03 11:03:00,306] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,306] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,306] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:00,306] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,316] - slave
+[DEBUG][2015-06-03 11:03:00,316] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,316] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,316] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:00,326] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,356] - slave
+[DEBUG][2015-06-03 11:03:00,378] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,379] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,379] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:03:00,382] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,388] - slave
+[DEBUG][2015-06-03 11:03:00,391] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,391] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,391] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:03:00,395] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,408] - slave
+[DEBUG][2015-06-03 11:03:00,418] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,418] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,418] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:03:00,418] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,428] - slave
+[DEBUG][2015-06-03 11:03:00,438] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,438] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,438] - ==> Parameters: 0d4fceca-95e7-41d6-90fd-99b64b54c91d(String)
+[DEBUG][2015-06-03 11:03:00,438] - <==      Total: 1
+[INFO ][2015-06-03 11:03:00,468] - slave
+[DEBUG][2015-06-03 11:03:00,478] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:00,478] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:00,478] - ==> Parameters: 0d4fceca-95e7-41d6-90fd-99b64b54c91d(String)
+[DEBUG][2015-06-03 11:03:00,478] - <==      Total: 1
+[INFO ][2015-06-03 11:03:09,921] - {"accessTime":"2015-06-03 11:03:09","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":91,"method":"POST","parameterMap":{"sjWeek":["3"],"orderTime":["2015-06-03"],"sjTime":["14"],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:03:09,921] - slave
+[DEBUG][2015-06-03 11:03:09,921] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:09,921] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:09,921] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:09,931] - <==      Total: 11
+[INFO ][2015-06-03 11:03:09,931] - slave
+[DEBUG][2015-06-03 11:03:09,942] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:09,942] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? and start_time <= ? and end_time > ? ) 
+[DEBUG][2015-06-03 11:03:09,942] - ==> Parameters: 3(Short), 1(Integer), 14:00:00(Time), 14:00:00(Time)
+[DEBUG][2015-06-03 11:03:09,942] - <==      Total: 5
+[INFO ][2015-06-03 11:03:09,952] - slave
+[DEBUG][2015-06-03 11:03:09,952] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:09,952] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( id in ( ? , ? , ? , ? , ? ) and user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:09,952] - ==> Parameters: 04e3e17c-b7a9-4619-b6da-0ab39cda3e0a(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), ed18d513-f721-4c0e-bdc7-a4b185ca8a2f(String), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:09,952] - <==      Total: 3
+[INFO ][2015-06-03 11:03:13,784] - {"accessTime":"2015-06-03 11:03:13","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/weatherList.do","requestURI":"/preOrder/weatherList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":20,"method":"POST","parameterMap":{"orderTime":["2015-06-06"]}}
+[INFO ][2015-06-03 11:03:13,784] - {"accessTime":"2015-06-03 11:03:13","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":72,"method":"POST","parameterMap":{"orderTime":["2015-06-06"],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:03:13,784] - slave
+[DEBUG][2015-06-03 11:03:13,784] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:13,784] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:13,784] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:13,794] - <==      Total: 11
+[INFO ][2015-06-03 11:03:13,794] - slave
+[DEBUG][2015-06-03 11:03:13,815] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:13,815] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? and space_id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) 
+[DEBUG][2015-06-03 11:03:13,815] - ==> Parameters: 6(Short), 1(Integer), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 226729a5-1108-4014-b540-46fd231c3a52(String), 2dec5007-435c-4473-9ab7-f4d5e5a29533(String), 3ea902df-c6e8-42ab-ba03-e3e9459afe0d(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), 675fe0d6-fa25-4666-9760-d66dcb1104d4(String), 6bc9ecc3-6f5e-4bb9-b603-0b741a57b798(String), 6e0a977e-9d0b-4874-b5d9-bde3d54560c4(String), 736d8110-3be9-464c-a992-ed4388c814fa(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 9bb973fa-6ea5-4d7e-8930-b558ccfc0e56(String)
+[DEBUG][2015-06-03 11:03:13,815] - <==      Total: 4
+[INFO ][2015-06-03 11:03:31,438] - {"accessTime":"2015-06-03 11:03:31","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:03:31,438] - slave
+[DEBUG][2015-06-03 11:03:31,438] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:31,438] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:31,438] - ==> Parameters: 1(Integer), 2(Integer)
+[INFO ][2015-06-03 11:03:31,448] - {"accessTime":"2015-06-03 11:03:31","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-03 11:03:31,448] - <==      Total: 3
+[INFO ][2015-06-03 11:03:31,448] - slave
+[DEBUG][2015-06-03 11:03:31,459] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:31,459] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:03:31,459] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:03:31,459] - <==      Total: 1
+[INFO ][2015-06-03 11:03:33,513] - {"accessTime":"2015-06-03 11:03:33","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:03:33,513] - {"accessTime":"2015-06-03 11:03:33","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:03:33,513] - slave
+[INFO ][2015-06-03 11:03:33,513] - slave
+[INFO ][2015-06-03 11:03:33,513] - {"accessTime":"2015-06-03 11:03:33","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:03:33,513] - slave
+[INFO ][2015-06-03 11:03:33,513] - {"accessTime":"2015-06-03 11:03:33","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:03:33,513] - {"accessTime":"2015-06-03 11:03:33","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:03:33,513] - slave
+[DEBUG][2015-06-03 11:03:33,513] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,513] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:33,513] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,523] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,523] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:33,523] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,523] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,523] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:33,523] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,523] - <==      Total: 10
+[DEBUG][2015-06-03 11:03:33,523] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,523] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:33,523] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,534] - <==      Total: 10
+[DEBUG][2015-06-03 11:03:33,534] - <==      Total: 10
+[DEBUG][2015-06-03 11:03:33,534] - <==      Total: 10
+[INFO ][2015-06-03 11:03:33,534] - slave
+[INFO ][2015-06-03 11:03:33,534] - slave
+[INFO ][2015-06-03 11:03:33,534] - slave
+[DEBUG][2015-06-03 11:03:33,534] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,534] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[INFO ][2015-06-03 11:03:33,534] - slave
+[DEBUG][2015-06-03 11:03:33,534] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,534] - <==      Total: 1
+[DEBUG][2015-06-03 11:03:33,544] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,544] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:03:33,544] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,544] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,544] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:03:33,544] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,544] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:33,544] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:03:33,544] - <==      Total: 1
+[DEBUG][2015-06-03 11:03:33,544] - <==      Total: 1
+[DEBUG][2015-06-03 11:03:33,544] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:33,544] - <==      Total: 1
+[INFO ][2015-06-03 11:03:35,464] - {"accessTime":"2015-06-03 11:03:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433300615411"]}}
+[INFO ][2015-06-03 11:03:35,464] - slave
+[INFO ][2015-06-03 11:03:35,464] - {"accessTime":"2015-06-03 11:03:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:03:35,464] - slave
+[INFO ][2015-06-03 11:03:35,464] - {"accessTime":"2015-06-03 11:03:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:03:35,464] - {"accessTime":"2015-06-03 11:03:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 11:03:35,464] - {"accessTime":"2015-06-03 11:03:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:03:35,464] - slave
+[INFO ][2015-06-03 11:03:35,464] - slave
+[INFO ][2015-06-03 11:03:35,464] - slave
+[INFO ][2015-06-03 11:03:35,464] - {"accessTime":"2015-06-03 11:03:35","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-03 11:03:35,464] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:35,464] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:35,464] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:35,464] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:35,474] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 11:03:35,474] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:03:35,474] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:35,474] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 11:03:35,474] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:03:35,474] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:35,474] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 11:03:35,474] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 11:03:35,474] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:35,474] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:35,474] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:03:35,474] - <==      Total: 17
+[DEBUG][2015-06-03 11:03:35,474] - <==      Total: 15
+[DEBUG][2015-06-03 11:03:35,485] - <==      Total: 10
+[DEBUG][2015-06-03 11:03:35,485] - <==      Total: 3
+[DEBUG][2015-06-03 11:03:35,485] - <==      Total: 17
+[INFO ][2015-06-03 11:03:35,485] - slave
+[INFO ][2015-06-03 11:03:35,485] - slave
+[DEBUG][2015-06-03 11:03:35,495] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:35,495] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:03:35,495] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:03:35,495] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:35,495] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:03:35,495] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:03:35,495] - <==      Total: 1
+[DEBUG][2015-06-03 11:03:35,495] - <==      Total: 1
+[INFO ][2015-06-03 11:03:37,865] - {"accessTime":"2015-06-03 11:03:37","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/stadium/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/stadium/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contextLength":-1,"method":"GET","parameterMap":{}}
+[INFO ][2015-06-03 11:03:37,865] - slave
+[DEBUG][2015-06-03 11:03:37,875] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:37,875] - ==>  Preparing: select id, user_account_id, provinceId, cityId, countryId, address, contacts, mobile_no, descs, charge_type, venue_type, other_services, email, nick_name, user_level, user_score, create_time, last_update_time, stat, venue_img, max_num, x_location, y_location from juju_venues_info WHERE ( stat = ? and user_account_id = ? ) 
+[DEBUG][2015-06-03 11:03:37,885] - ==> Parameters: 1(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:03:37,886] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:37,886] - ==>  Preparing: select id, service_name serviceName, create_time createTime, last_update_time lastUpdateTime, stat from juju_service_type where stat=1 and id in ( select service_type_id from juju_venues_service_type_mapping where stat=1 and venues_info_id=? ) 
+[DEBUG][2015-06-03 11:03:37,886] - ==> Parameters: 4c3d6d20-1d98-43f6-95a9-ad6573c28fa6(String)
+[DEBUG][2015-06-03 11:03:37,886] - <==      Total: 2
+[DEBUG][2015-06-03 11:03:37,896] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:37,896] - ==>  Preparing: select id, sport_name sportName, create_time createTime, last_update_time lastUpdateTime, stat from juju_sport_type type where stat =1 and type.id in ( select sport_type_id from juju_venues_sport_type_mapping where stat=1 and venues_info_id=? ) 
+[DEBUG][2015-06-03 11:03:37,896] - ==> Parameters: 4c3d6d20-1d98-43f6-95a9-ad6573c28fa6(String)
+[DEBUG][2015-06-03 11:03:37,906] - <==      Total: 15
+[DEBUG][2015-06-03 11:03:37,906] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,146] - {"accessTime":"2015-06-03 11:03:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/draw/drawRandom.do","requestURI":"/draw/drawRandom.do","contextPath":"","contextLength":-1,"method":"GET","parameterMap":{}}
+[INFO ][2015-06-03 11:03:38,196] - {"accessTime":"2015-06-03 11:03:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:03:38,196] - {"accessTime":"2015-06-03 11:03:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/dateList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/dateList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:03:38,196] - {"accessTime":"2015-06-03 11:03:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":72,"method":"POST","parameterMap":{"orderTime":["2015-06-03"],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:03:38,196] - slave
+[INFO ][2015-06-03 11:03:38,206] - {"accessTime":"2015-06-03 11:03:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-03 11:03:38,206] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,206] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:38,206] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[INFO ][2015-06-03 11:03:38,206] - {"accessTime":"2015-06-03 11:03:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/message/findMessByOwner.do","requestURI":"/api/message/findMessByOwner.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":67,"method":"POST","parameterMap":{"pageSize":["10"],"msgToId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"],"currPage":["1"]}}
+[INFO ][2015-06-03 11:03:38,206] - slave
+[INFO ][2015-06-03 11:03:38,206] - {"accessTime":"2015-06-03 11:03:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":89,"method":"POST","parameterMap":{"sjWeek":["3"],"orderTime":["2015-06-03"],"sjTime":[""],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:03:38,206] - slave
+[DEBUG][2015-06-03 11:03:38,206] - <==      Total: 11
+[DEBUG][2015-06-03 11:03:38,216] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,216] - ==>  Preparing: select id, msg_type, msg_from_id, msg_to_id, msg_content, msg_time, attachment, msg_status, create_time, last_update_time, stat, user_account, msg_score, msg_resource from juju_messages WHERE ( msg_type = ? and msg_to_id = ? and stat = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:03:38,216] - ==> Parameters: 5(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:03:38,216] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,216] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:38,216] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[INFO ][2015-06-03 11:03:38,216] - slave
+[DEBUG][2015-06-03 11:03:38,216] - <==      Total: 11
+[DEBUG][2015-06-03 11:03:38,226] - <==      Total: 10
+[DEBUG][2015-06-03 11:03:38,226] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,226] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? and space_id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) 
+[DEBUG][2015-06-03 11:03:38,226] - ==> Parameters: 3(Short), 1(Integer), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 226729a5-1108-4014-b540-46fd231c3a52(String), 2dec5007-435c-4473-9ab7-f4d5e5a29533(String), 3ea902df-c6e8-42ab-ba03-e3e9459afe0d(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), 675fe0d6-fa25-4666-9760-d66dcb1104d4(String), 6bc9ecc3-6f5e-4bb9-b603-0b741a57b798(String), 6e0a977e-9d0b-4874-b5d9-bde3d54560c4(String), 736d8110-3be9-464c-a992-ed4388c814fa(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 9bb973fa-6ea5-4d7e-8930-b558ccfc0e56(String)
+[INFO ][2015-06-03 11:03:38,226] - slave
+[DEBUG][2015-06-03 11:03:38,226] - <==      Total: 7
+[DEBUG][2015-06-03 11:03:38,226] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,226] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:38,226] - ==> Parameters: 3(Short), 1(Integer)
+[INFO ][2015-06-03 11:03:38,236] - slave
+[DEBUG][2015-06-03 11:03:38,236] - <==      Total: 10
+[DEBUG][2015-06-03 11:03:38,236] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,236] - ==>  Preparing: select count(*) from juju_messages WHERE ( msg_type = ? and msg_to_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:38,246] - ==> Parameters: 5(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[INFO ][2015-06-03 11:03:38,246] - slave
+[DEBUG][2015-06-03 11:03:38,246] - <==      Total: 1
+[DEBUG][2015-06-03 11:03:38,256] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,256] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) and user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:03:38,256] - ==> Parameters: 6bc9ecc3-6f5e-4bb9-b603-0b741a57b798(String), 04e3e17c-b7a9-4619-b6da-0ab39cda3e0a(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), ed18d513-f721-4c0e-bdc7-a4b185ca8a2f(String), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 736d8110-3be9-464c-a992-ed4388c814fa(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 226729a5-1108-4014-b540-46fd231c3a52(String), 7e31044a-68a4-4863-a97e-bfe8e75b70a2(String), 9bb973fa-6ea5-4d7e-8930-b558ccfc0e56(String), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[INFO ][2015-06-03 11:03:38,256] - slave
+[DEBUG][2015-06-03 11:03:38,256] - <==      Total: 7
+[DEBUG][2015-06-03 11:03:38,256] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,256] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,256] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:38,266] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,276] - slave
+[DEBUG][2015-06-03 11:03:38,276] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,276] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,276] - ==> Parameters: 6351f529-ac7a-4e86-b3b1-5f7366445b78(String)
+[DEBUG][2015-06-03 11:03:38,296] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,306] - slave
+[DEBUG][2015-06-03 11:03:38,306] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,306] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,306] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:38,316] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,316] - slave
+[DEBUG][2015-06-03 11:03:38,316] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,316] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,316] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:38,326] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,326] - slave
+[DEBUG][2015-06-03 11:03:38,336] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,336] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,336] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:03:38,336] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,336] - slave
+[DEBUG][2015-06-03 11:03:38,356] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,356] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,356] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:03:38,356] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,366] - slave
+[DEBUG][2015-06-03 11:03:38,366] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,366] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,366] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:03:38,376] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,376] - slave
+[DEBUG][2015-06-03 11:03:38,376] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,376] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,376] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:03:38,386] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,386] - slave
+[DEBUG][2015-06-03 11:03:38,396] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,396] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,396] - ==> Parameters: 0d4fceca-95e7-41d6-90fd-99b64b54c91d(String)
+[DEBUG][2015-06-03 11:03:38,396] - <==      Total: 1
+[INFO ][2015-06-03 11:03:38,406] - slave
+[DEBUG][2015-06-03 11:03:38,406] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:03:38,406] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:03:38,406] - ==> Parameters: 0d4fceca-95e7-41d6-90fd-99b64b54c91d(String)
+[DEBUG][2015-06-03 11:03:38,406] - <==      Total: 1
+[INFO ][2015-06-03 11:04:04,905] - {"accessTime":"2015-06-03 11:04:04","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433300644852"]}}
+[INFO ][2015-06-03 11:04:04,905] - slave
+[INFO ][2015-06-03 11:04:04,915] - {"accessTime":"2015-06-03 11:04:04","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:04:04,915] - {"accessTime":"2015-06-03 11:04:04","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-03 11:04:04,915] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:04,915] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 11:04:04,915] - ==> Parameters: 1(Integer)
+[INFO ][2015-06-03 11:04:04,915] - slave
+[INFO ][2015-06-03 11:04:04,915] - {"accessTime":"2015-06-03 11:04:04","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 11:04:04,915] - {"accessTime":"2015-06-03 11:04:04","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:04:04,915] - {"accessTime":"2015-06-03 11:04:04","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:04:04,915] - slave
+[INFO ][2015-06-03 11:04:04,915] - slave
+[INFO ][2015-06-03 11:04:04,915] - slave
+[DEBUG][2015-06-03 11:04:04,915] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:04,915] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 11:04:04,915] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:04:04,915] - <==      Total: 17
+[DEBUG][2015-06-03 11:04:04,925] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:04,925] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 11:04:04,926] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:04,926] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 11:04:04,926] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:04:04,926] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:04:04,926] - <==      Total: 15
+[DEBUG][2015-06-03 11:04:04,926] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:04,926] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:04:04,926] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:04:04,926] - <==      Total: 10
+[DEBUG][2015-06-03 11:04:04,936] - <==      Total: 17
+[DEBUG][2015-06-03 11:04:04,936] - <==      Total: 3
+[INFO ][2015-06-03 11:04:04,946] - slave
+[INFO ][2015-06-03 11:04:04,946] - slave
+[DEBUG][2015-06-03 11:04:04,956] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:04,956] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:04:04,956] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:04:04,956] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:04,956] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:04:04,956] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:04:04,956] - <==      Total: 1
+[DEBUG][2015-06-03 11:04:04,956] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,277] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/stadium/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/stadium/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contextLength":-1,"method":"GET","parameterMap":{}}
+[INFO ][2015-06-03 11:04:07,287] - slave
+[DEBUG][2015-06-03 11:04:07,297] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,297] - ==>  Preparing: select id, user_account_id, provinceId, cityId, countryId, address, contacts, mobile_no, descs, charge_type, venue_type, other_services, email, nick_name, user_level, user_score, create_time, last_update_time, stat, venue_img, max_num, x_location, y_location from juju_venues_info WHERE ( stat = ? and user_account_id = ? ) 
+[DEBUG][2015-06-03 11:04:07,297] - ==> Parameters: 1(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:04:07,297] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,297] - ==>  Preparing: select id, service_name serviceName, create_time createTime, last_update_time lastUpdateTime, stat from juju_service_type where stat=1 and id in ( select service_type_id from juju_venues_service_type_mapping where stat=1 and venues_info_id=? ) 
+[DEBUG][2015-06-03 11:04:07,297] - ==> Parameters: 4c3d6d20-1d98-43f6-95a9-ad6573c28fa6(String)
+[DEBUG][2015-06-03 11:04:07,308] - <==      Total: 2
+[DEBUG][2015-06-03 11:04:07,308] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,308] - ==>  Preparing: select id, sport_name sportName, create_time createTime, last_update_time lastUpdateTime, stat from juju_sport_type type where stat =1 and type.id in ( select sport_type_id from juju_venues_sport_type_mapping where stat=1 and venues_info_id=? ) 
+[DEBUG][2015-06-03 11:04:07,308] - ==> Parameters: 4c3d6d20-1d98-43f6-95a9-ad6573c28fa6(String)
+[DEBUG][2015-06-03 11:04:07,318] - <==      Total: 15
+[DEBUG][2015-06-03 11:04:07,318] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,588] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/draw/drawRandom.do","requestURI":"/draw/drawRandom.do","contextPath":"","contextLength":-1,"method":"GET","parameterMap":{}}
+[INFO ][2015-06-03 11:04:07,658] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:04:07,658] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/dateList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/dateList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:04:07,658] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/spaceLists/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":89,"method":"POST","parameterMap":{"sjWeek":["3"],"orderTime":["2015-06-03"],"sjTime":[""],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:04:07,658] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:04:07,658] - slave
+[INFO ][2015-06-03 11:04:07,658] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","requestURI":"/preOrder/hourList/1b444c45-3af5-4f9e-92af-d84cb233d84f.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":72,"method":"POST","parameterMap":{"orderTime":["2015-06-03"],"ownerAccountId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"]}}
+[INFO ][2015-06-03 11:04:07,668] - {"accessTime":"2015-06-03 11:04:07","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/message/findMessByOwner.do","requestURI":"/api/message/findMessByOwner.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":67,"method":"POST","parameterMap":{"pageSize":["10"],"msgToId":["1b444c45-3af5-4f9e-92af-d84cb233d84f"],"currPage":["1"]}}
+[INFO ][2015-06-03 11:04:07,668] - slave
+[DEBUG][2015-06-03 11:04:07,668] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,668] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:04:07,668] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[INFO ][2015-06-03 11:04:07,668] - slave
+[DEBUG][2015-06-03 11:04:07,668] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,668] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:04:07,668] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:04:07,668] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,668] - ==>  Preparing: select id, msg_type, msg_from_id, msg_to_id, msg_content, msg_time, attachment, msg_status, create_time, last_update_time, stat, user_account, msg_score, msg_resource from juju_messages WHERE ( msg_type = ? and msg_to_id = ? and stat = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:04:07,668] - ==> Parameters: 5(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:04:07,668] - <==      Total: 11
+[DEBUG][2015-06-03 11:04:07,668] - <==      Total: 11
+[DEBUG][2015-06-03 11:04:07,678] - <==      Total: 10
+[INFO ][2015-06-03 11:04:07,678] - slave
+[INFO ][2015-06-03 11:04:07,678] - slave
+[DEBUG][2015-06-03 11:04:07,678] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,678] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:04:07,678] - ==> Parameters: 3(Short), 1(Integer)
+[INFO ][2015-06-03 11:04:07,678] - slave
+[DEBUG][2015-06-03 11:04:07,688] - <==      Total: 10
+[DEBUG][2015-06-03 11:04:07,688] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,688] - ==>  Preparing: select id, user_account_id, space_id, open_week, price, start_time, end_time, create_time, last_update_time, stat from juju_space_opentime WHERE ( open_week = ? and stat = ? and space_id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) 
+[DEBUG][2015-06-03 11:04:07,688] - ==> Parameters: 3(Short), 1(Integer), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 226729a5-1108-4014-b540-46fd231c3a52(String), 2dec5007-435c-4473-9ab7-f4d5e5a29533(String), 3ea902df-c6e8-42ab-ba03-e3e9459afe0d(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), 675fe0d6-fa25-4666-9760-d66dcb1104d4(String), 6bc9ecc3-6f5e-4bb9-b603-0b741a57b798(String), 6e0a977e-9d0b-4874-b5d9-bde3d54560c4(String), 736d8110-3be9-464c-a992-ed4388c814fa(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 9bb973fa-6ea5-4d7e-8930-b558ccfc0e56(String)
+[DEBUG][2015-06-03 11:04:07,688] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,688] - ==>  Preparing: select count(*) from juju_messages WHERE ( msg_type = ? and msg_to_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:04:07,688] - ==> Parameters: 5(Integer), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:04:07,688] - <==      Total: 1
+[DEBUG][2015-06-03 11:04:07,688] - <==      Total: 7
+[INFO ][2015-06-03 11:04:07,688] - slave
+[INFO ][2015-06-03 11:04:07,688] - slave
+[DEBUG][2015-06-03 11:04:07,698] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,698] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,698] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:04:07,698] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,698] - ==>  Preparing: select id, user_account_id, min_number, max_number, join_number, sport_id, space_name, images, price, create_time, last_update_time, stat from juju_space WHERE ( id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) and user_account_id = ? and stat = ? ) 
+[DEBUG][2015-06-03 11:04:07,698] - ==> Parameters: 6bc9ecc3-6f5e-4bb9-b603-0b741a57b798(String), 04e3e17c-b7a9-4619-b6da-0ab39cda3e0a(String), 5a703aa8-7877-4519-a58f-fe9072fcb565(String), ed18d513-f721-4c0e-bdc7-a4b185ca8a2f(String), 1da6f75e-f1da-4a8a-ad57-a06b36e7bcc8(String), 736d8110-3be9-464c-a992-ed4388c814fa(String), 73e00163-79cd-4137-a88b-ec4e3be36948(String), 226729a5-1108-4014-b540-46fd231c3a52(String), 7e31044a-68a4-4863-a97e-bfe8e75b70a2(String), 9bb973fa-6ea5-4d7e-8930-b558ccfc0e56(String), 1b444c45-3af5-4f9e-92af-d84cb233d84f(String), 1(Integer)
+[DEBUG][2015-06-03 11:04:07,698] - <==      Total: 1
+[DEBUG][2015-06-03 11:04:07,698] - <==      Total: 7
+[INFO ][2015-06-03 11:04:07,698] - slave
+[DEBUG][2015-06-03 11:04:07,708] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,708] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,708] - ==> Parameters: 6351f529-ac7a-4e86-b3b1-5f7366445b78(String)
+[DEBUG][2015-06-03 11:04:07,708] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,708] - slave
+[DEBUG][2015-06-03 11:04:07,718] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,718] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,718] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:04:07,718] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,718] - slave
+[DEBUG][2015-06-03 11:04:07,718] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,718] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,718] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:04:07,728] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,728] - slave
+[DEBUG][2015-06-03 11:04:07,728] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,728] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,728] - ==> Parameters: 10194c3c-d663-4c04-9362-5cc0042cdcfe(String)
+[DEBUG][2015-06-03 11:04:07,738] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,748] - slave
+[DEBUG][2015-06-03 11:04:07,748] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,748] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,748] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:04:07,748] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,758] - slave
+[DEBUG][2015-06-03 11:04:07,758] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,758] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,758] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:04:07,758] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,758] - slave
+[DEBUG][2015-06-03 11:04:07,768] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,768] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,768] - ==> Parameters: 1b444c45-3af5-4f9e-92af-d84cb233d84f(String)
+[DEBUG][2015-06-03 11:04:07,768] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,778] - slave
+[DEBUG][2015-06-03 11:04:07,788] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,788] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,788] - ==> Parameters: 0d4fceca-95e7-41d6-90fd-99b64b54c91d(String)
+[DEBUG][2015-06-03 11:04:07,788] - <==      Total: 1
+[INFO ][2015-06-03 11:04:07,788] - slave
+[DEBUG][2015-06-03 11:04:07,798] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:07,798] - ==>  Preparing: select users.id,users.real_name as realName,users.job as job,users.provinceId as provinceId,users.cityId as cityId,users.countryId as countryId,users.address as address,users.email as email,users.mobile_no as mobileNo,users.age as age,users.user_image as userImage,acc.user_account as userAccount, users.brithday as brithday,users.nick_name as nickName,users.charge_type as chargeType,users.venue_type as venueType,users.user_level as userLevel,users.user_score as userScore,users.create_time as createTime,users.last_update_time as lastUpdateTime,users.height as height,users.weight as weight from juju_users users inner join juju_user_account acc on users.user_account_id = acc.id where users.user_account_id = ? 
+[DEBUG][2015-06-03 11:04:07,798] - ==> Parameters: 0d4fceca-95e7-41d6-90fd-99b64b54c91d(String)
+[DEBUG][2015-06-03 11:04:07,798] - <==      Total: 1
+[INFO ][2015-06-03 11:04:41,288] - {"accessTime":"2015-06-03 11:04:41","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433300681235"]}}
+[INFO ][2015-06-03 11:04:41,288] - slave
+[INFO ][2015-06-03 11:04:41,288] - {"accessTime":"2015-06-03 11:04:41","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:04:41,288] - {"accessTime":"2015-06-03 11:04:41","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 11:04:41,288] - slave
+[INFO ][2015-06-03 11:04:41,288] - {"accessTime":"2015-06-03 11:04:41","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 11:04:41,288] - slave
+[INFO ][2015-06-03 11:04:41,288] - slave
+[INFO ][2015-06-03 11:04:41,288] - {"accessTime":"2015-06-03 11:04:41","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:04:41,288] - {"accessTime":"2015-06-03 11:04:41","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 11:04:41,288] - slave
+[DEBUG][2015-06-03 11:04:41,298] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:41,298] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:41,298] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:04:41,298] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 11:04:41,298] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:41,298] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 11:04:41,298] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:04:41,299] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:04:41,298] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:41,299] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:41,298] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:04:41,299] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 11:04:41,299] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 11:04:41,299] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 11:04:41,299] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 11:04:41,305] - <==      Total: 15
+[DEBUG][2015-06-03 11:04:41,307] - <==      Total: 17
+[DEBUG][2015-06-03 11:04:41,308] - <==      Total: 10
+[DEBUG][2015-06-03 11:04:41,309] - <==      Total: 3
+[DEBUG][2015-06-03 11:04:41,311] - <==      Total: 17
+[INFO ][2015-06-03 11:04:41,313] - slave
+[INFO ][2015-06-03 11:04:41,313] - slave
+[DEBUG][2015-06-03 11:04:41,313] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:41,313] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:04:41,313] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 11:04:41,313] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 11:04:41,313] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 11:04:41,313] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 11:04:41,313] - <==      Total: 1
+[DEBUG][2015-06-03 11:04:41,313] - <==      Total: 1
+[INFO ][2015-06-03 13:24:47,710] - {"accessTime":"2015-06-03 13:24:47","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 15:09:38,880] - {"accessTime":"2015-06-03 15:09:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433315378867"]}}
+[INFO ][2015-06-03 15:09:38,881] - slave
+[INFO ][2015-06-03 15:09:38,884] - {"accessTime":"2015-06-03 15:09:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 15:09:38,886] - slave
+[INFO ][2015-06-03 15:09:38,886] - {"accessTime":"2015-06-03 15:09:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 15:09:38,888] - slave
+[INFO ][2015-06-03 15:09:38,891] - {"accessTime":"2015-06-03 15:09:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 15:09:38,893] - {"accessTime":"2015-06-03 15:09:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 15:09:38,894] - slave
+[INFO ][2015-06-03 15:09:38,894] - slave
+[DEBUG][2015-06-03 15:09:38,896] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[INFO ][2015-06-03 15:09:38,896] - {"accessTime":"2015-06-03 15:09:38","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-03 15:09:38,896] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 15:09:38,897] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 15:09:38,896] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 15:09:38,897] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 15:09:38,897] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 15:09:38,897] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 15:09:38,897] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 15:09:38,897] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 15:09:38,898] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 15:09:38,898] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 15:09:38,898] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 15:09:38,898] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 15:09:38,898] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 15:09:38,898] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 15:09:38,903] - <==      Total: 15
+[DEBUG][2015-06-03 15:09:38,906] - <==      Total: 3
+[DEBUG][2015-06-03 15:09:38,907] - <==      Total: 17
+[DEBUG][2015-06-03 15:09:38,908] - <==      Total: 17
+[DEBUG][2015-06-03 15:09:38,913] - <==      Total: 10
+[INFO ][2015-06-03 15:09:38,913] - slave
+[DEBUG][2015-06-03 15:09:38,917] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 15:09:38,917] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 15:09:38,917] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 15:09:38,920] - <==      Total: 1
+[INFO ][2015-06-03 15:09:38,920] - slave
+[DEBUG][2015-06-03 15:09:38,925] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 15:09:38,926] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 15:09:38,926] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 15:09:38,930] - <==      Total: 1
+[INFO ][2015-06-03 15:19:34,565] - {"accessTime":"2015-06-03 15:19:34","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 15:19:34,565] - slave
+[DEBUG][2015-06-03 15:19:34,575] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 15:19:34,575] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 15:19:34,575] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 15:19:34,575] - <==      Total: 15
+[INFO ][2015-06-03 17:11:22,907] - Root WebApplicationContext: initialization started
+[INFO ][2015-06-03 17:11:23,020] - Refreshing Root WebApplicationContext: startup date [Wed Jun 03 17:11:23 CST 2015]; root of context hierarchy
+[INFO ][2015-06-03 17:11:23,050] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2015-06-03 17:11:24,509] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/persistence.xml]
+[INFO ][2015-06-03 17:11:24,570] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2015-06-03 17:11:24,623] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2015-06-03 17:11:24,663] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/elasticsearch.xml]
+[INFO ][2015-06-03 17:11:25,312] - Loading properties file from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/application.properties]
+[INFO ][2015-06-03 17:11:25,670] - Loading properties file from class path resource [application.properties]
+[INFO ][2015-06-03 17:11:29,138] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2015-06-03 17:11:29,498] - [Ghost Dancer] loaded [], sites []
+[INFO ][2015-06-03 17:11:30,379] - adding transport node : 192.168.1.156:9300
+[ERROR][2015-06-03 17:11:32,758] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[ERROR][2015-06-03 17:11:32,831] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[INFO ][2015-06-03 17:11:32,906] - Root WebApplicationContext: initialization completed in 9999 ms
+[INFO ][2015-06-03 17:11:32,906] - ###### juju-home application start ######
+[INFO ][2015-06-03 17:11:32,974] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2015-06-03 17:11:32,977] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Jun 03 17:11:32 CST 2015]; parent: Root WebApplicationContext
+[INFO ][2015-06-03 17:11:32,978] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/address/list.do] onto handler 'addressesController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/address/listByParentId.do] onto handler 'addressesController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/success.do] onto handler 'alipayController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/notifyUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/returnUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/saveCard.do] onto handler 'cardController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/complaint/insertComplaint.do] onto handler 'complaintController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/draw/drawRandom.do] onto handler 'drawRandomController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/email/send.do] onto handler 'emailController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/email/validate.do] onto handler 'emailController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/exchange/query.do] onto handler 'exchangeController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/exchange/exchange.do] onto handler 'exchangeController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/family/getHeath.do] onto handler 'familyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/family/getLetter.do] onto handler 'familyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/family/getSpecifications.do] onto handler 'familyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/family/getSportExaminationList.do] onto handler 'familyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/family/getSportIntroductionList.do] onto handler 'familyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/family/getSportIntroductionListAll.do] onto handler 'familyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/family/getSportIntroductionDetail.do] onto handler 'familyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/rest/checkUser.do] onto handler 'deviceUsersController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/rest/venues/info.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/rest/card/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/rest/phone/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/rest/tdc/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/home/index.do] onto handler 'indexController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/home/newsList.do] onto handler 'indexController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/home/eventList.do] onto handler 'indexController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/notifyUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/returnUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/code/create.do] onto handler 'dimensionCodeController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/messages/loadMessages.do] onto handler 'messageMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/orderBuy/buy.do] onto handler 'orderBuyMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/preOrder/data.do] onto handler 'preOrderMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/SMS/send.do] onto handler 'smsMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/team/findTeams.do] onto handler 'teamMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/upload/deal.do] onto handler 'uploadMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/umanages/register.do] onto handler 'userMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/umanages/login.do] onto handler 'userMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/venue/query.do] onto handler 'venueMController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/m/version/query.do] onto handler 'versionController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/message/findVenusMess.do] onto handler 'messageController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/message/insert.do] onto handler 'messageController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/message/findComplaint.do] onto handler 'messageController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/message/findOrderByMess.do] onto handler 'messageController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/message/findMessByOwner.do] onto handler 'messageController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/myMessage/findMyMessageby.do] onto handler 'myMessageController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/orderBuy/{orderId}.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/orderBuy/buy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/orderBuy/checkBuy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/orderBuy/payWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/orderBuy/teamWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 17:11:33,508] - Mapped URL path [/api/orderBuy/orderWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/order/userList.do] onto handler 'orderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/order/operation.do] onto handler 'orderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/order/items/search.do] onto handler 'orderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/order/showRaceInfos.do] onto handler 'orderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/order/items/list.do] onto handler 'orderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/order/registration.do] onto handler 'orderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/pay/index.do] onto handler 'payController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/preOrder/dateList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/preOrder/weatherList.do] onto handler 'preOrderController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/race/findDetail.do] onto handler 'raceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/race/poly_event.do] onto handler 'raceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/race/event_info.do] onto handler 'raceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/race/ajaxJumpInfos.do] onto handler 'raceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/race/loadRaceScore.do] onto handler 'raceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/race/findAll.do] onto handler 'raceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/serviceType/list.do] onto handler 'serviceTypeController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/SMS/send.do] onto handler 'SMSController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/SMS/validate.do] onto handler 'SMSController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/SMS/validatePhone.do] onto handler 'SMSController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/list.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/save.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/delete.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/#.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/jumpInfos.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/updateSpaceMaster.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/update.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/findSearch.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/insertSave.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/findOpen.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/findUpdateInfo.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/space/findAll.do] onto handler 'spaceController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/sportType/list.do] onto handler 'sportTypeController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/sportType/findByStad] onto handler 'sportTypeController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/sportType/findByStad.*] onto handler 'sportTypeController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/sportType/findByStad/] onto handler 'sportTypeController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/sportType/findAll.do] onto handler 'sportTypeController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/{ownerAccountId}.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/showVenuesInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/findvenuesMessage.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/message.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/findNameBySportType.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/findChooseByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/findStadByName.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/jumpInfos.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/registerSite.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/findStadByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/showVenues.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/stadium/addOrUpdateStadiumInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/api/temp/upload.do] onto handler 'tempUploadController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/api//upload.do] onto handler 'uploadController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/register.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/addOrUpdateUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/regUserByThird.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/drawRandom.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/login.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/showUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/loadEmail.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/umanages.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/check_OPW.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/loadInfo.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/loginout.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/modifyPwd.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/umanages/checkrepeat.do] onto handler 'userController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/join.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/save.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/cancel.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/showMembersInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/findTeams.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/modify.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/joinlist.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/showInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/releaseFright.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/list.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,518] - Mapped URL path [/user/team/findBy.do] onto handler 'userTeamController'
+[INFO ][2015-06-03 17:11:33,538] - FrameworkServlet 'appServlet': initialization completed in 564 ms
+[INFO ][2015-06-03 17:11:46,189] - {"accessTime":"2015-06-03 17:11:46","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 17:11:46,225] - slave
+[DEBUG][2015-06-03 17:11:46,595] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:46,597] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 17:11:46,625] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 17:11:46,645] - <==      Total: 15
+[INFO ][2015-06-03 17:11:53,264] - {"accessTime":"2015-06-03 17:11:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433322713155"]}}
+[INFO ][2015-06-03 17:11:53,274] - {"accessTime":"2015-06-03 17:11:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 17:11:53,274] - {"accessTime":"2015-06-03 17:11:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-03 17:11:53,274] - {"accessTime":"2015-06-03 17:11:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-03 17:11:53,274] - slave
+[INFO ][2015-06-03 17:11:53,274] - {"accessTime":"2015-06-03 17:11:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 17:11:53,274] - slave
+[INFO ][2015-06-03 17:11:53,274] - {"accessTime":"2015-06-03 17:11:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-03 17:11:53,285] - slave
+[INFO ][2015-06-03 17:11:53,295] - slave
+[INFO ][2015-06-03 17:11:53,305] - slave
+[DEBUG][2015-06-03 17:11:53,335] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:53,335] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-03 17:11:53,335] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-03 17:11:53,335] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:53,335] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:53,335] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 17:11:53,335] - ==>  Preparing: select id, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-03 17:11:53,335] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 17:11:53,335] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 17:11:53,355] - <==      Total: 3
+[DEBUG][2015-06-03 17:11:53,355] - <==      Total: 17
+[DEBUG][2015-06-03 17:11:53,355] - <==      Total: 17
+[INFO ][2015-06-03 17:11:53,365] - slave
+[DEBUG][2015-06-03 17:11:53,365] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:53,365] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? ) order by id ASC 
+[DEBUG][2015-06-03 17:11:53,365] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-03 17:11:53,375] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:53,375] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 17:11:53,375] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-03 17:11:53,385] - <==      Total: 15
+[DEBUG][2015-06-03 17:11:53,398] - <==      Total: 1
+[DEBUG][2015-06-03 17:11:53,416] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:53,417] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-03 17:11:53,418] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 17:11:53,427] - <==      Total: 10
+[INFO ][2015-06-03 17:11:53,440] - slave
+[DEBUG][2015-06-03 17:11:53,445] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.75, MySQL Connector Java]
+[DEBUG][2015-06-03 17:11:53,445] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-03 17:11:53,462] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-03 17:11:53,485] - <==      Total: 1
+[WARN ][2015-06-03 19:03:40,374] - [Ghost Dancer] exception caught on transport layer [[id: 0x288f7a04]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,374] - [Ghost Dancer] exception caught on transport layer [[id: 0xc7636f9d]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,374] - [Ghost Dancer] exception caught on transport layer [[id: 0xdfef2fbe]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,374] - [Ghost Dancer] exception caught on transport layer [[id: 0x9d601a68]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,374] - [Ghost Dancer] exception caught on transport layer [[id: 0xe69620ca]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0x0587b326]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0x218cadfa]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0xf70d410f]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0x47a0c917]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0x1f3da77d]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0x3bbdd222]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0xb59cf2b9]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0xc838b300]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-03 19:03:40,384] - [Ghost Dancer] exception caught on transport layer [[id: 0x09249dea]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)

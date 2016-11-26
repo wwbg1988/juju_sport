@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.stadium.mapper.SpacesOpenTimeMapper" >
+ <select id="findCheckTime" resultType="integer" parameterType="com.juju.sport.stadium.pojo.SpaceOpenTime" >
+ 
+ SELECT count(*) FROM juju_space_opentime WHERE (( start_time &gt;= #{startTime} AND start_time &lt; #{endTime} ) OR ( end_time &gt; #{startTime} AND end_time &lt;= #{endTime} ) OR ( start_time &lt; #{startTime}  AND end_time &gt;= #{endTime} )) 
+  and open_week=#{openWeek}  and space_id=#{spaceId} and stat=1
+ </select>
+ 
+  <select id="findCheckDate" resultType="integer" parameterType="com.juju.sport.stadium.pojo.SpaceOpenTime" >
+ 
+ SELECT count(*) FROM juju_space_opentime WHERE open_week=#{openWeek} and space_id=#{spaceId} and stat=1
+ </select>
+ 
+ <select id="countOpen" resultType="integer" parameterType="com.juju.sport.stadium.dto.SpaceOpenTimeDto">
+ select count(*) from juju_space_opentime where space_id=#{spaceId} and stat =1 and open_week = #{openWeek}
+ <if test="startTime!=null and endTime!=null and startTime!='' and endTime!=''">
+ 	and (start_time between DATE_FORMAT(#{startTime},'%H:%i:%s') and DATE_FORMAT(#{endTime},'%H:%i:%s') or end_time between DATE_FORMAT(#{startTime},'%H:%i:%s') and DATE_FORMAT(#{endTime},'%H:%i:%s'))
+ </if>
+
+ </select>
+ 
+ 
+ <insert id="insertOpen" parameterType="com.juju.sport.stadium.dto.SpaceOpenTimeDto">
+ 	insert into juju_space_opentime (id,space_id,open_week,start_time,end_time,create_time,last_update_time,stat,user_account_id,price) values(#{id},#{spaceId},#{openWeek},#{startTime},#{endTime},#{createTime},#{lastUpdateTime},#{stat},#{userAccountId},#{price})
+ </insert>
+ <select id="findAllOpen" parameterType="com.juju.sport.stadium.dto.SpaceOpenTimeDto" resultType="com.juju.sport.stadium.dto.SpaceOpenTimeDto">
+ select id,space_id as spaceId,case open_week when 1 then'一' when 2 then'二' when 3 then'三' when 4 then'四' when 5 then'五' when 6 then'六' else '日' end as openWeekRemark,open_week as openWeek,DATE_FORMAT(start_time,'%H') as startHour,DATE_FORMAT(end_time,'%H') as endHour,start_time as startTime,end_time as endTime,price from juju_space_opentime where space_id=#{spaceId} and stat=1 order by open_week;
+ </select>
+ 
+ <update id="updateOpen" parameterType="com.juju.sport.stadium.dto.SpaceOpenTimeDto">
+ 	update juju_space_opentime set start_time=#{startTime},end_time=#{endTime},price=#{price} where id=#{id} and open_week=#{openWeek}
+ </update>
+ 
+ <update id="deleteOpen" parameterType="com.juju.sport.stadium.dto.SpaceOpenTimeDto">
+ 	update juju_space_opentime set stat=0 where id=#{id} and open_week=#{openWeek}
+ </update>
+  <update id="deleteAllOpen" parameterType="com.juju.sport.stadium.dto.SpaceOpenTimeDto">
+ 	update juju_space_opentime set stat=0 where space_id=#{spaceId}
+ </update>
+ 
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.admin.manager.mapper.RoleActionExMapper" >
+	
+	 <select id="getRoleActionByRoleId" resultType="com.juju.sport.admin.manger.dto.RoleActionDto">
+	 	select action.id actionId,action.action action,action.action_discribtion actionDiscribtion,
+		map.role_id roleId, if(map.role_id is not null,  true, false) selected from (
+			select * from admin_action where stat=1
+		) action
+		left join admin_role_action map
+		on action.id = map.action_id and map.role_id=#{roleId} and map.stat = 1 
+	 </select>
+	
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.admin.manager.mapper.RoleMenuExMapper" >
+	
+	 <select id="getRoleMenuByRoleId" resultType="com.juju.sport.admin.manger.dto.RoleMenuMappingDto">
+	 	select menu.id menuId, m_group.menu_group_name groupName, menu.menu_function_name menuName, menu.menu_function_action menuAction,
+		r_menu.role_id roleId, if(r_menu.role_id is not null,  true, false) selected 
+		from admin_menu menu
+		left join admin_menu_group m_group on menu.menu_group_id = m_group.id and m_group.stat=1 
+		left join admin_role_menu r_menu on r_menu.menu_id = menu.id and r_menu.role_id=#{roleId} and r_menu.stat=1
+		where menu.stat=1
+		order by groupName, menuId 
+	 </select>
+	
+</mapper>

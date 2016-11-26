@@ -1,0 +1,4 @@
+mvn install -X -Dmaven.test.skip=true -Pprod
+mvn package -X -Dmaven.test.skip=true -Psoa-prod
+
+package -X -Dmaven.test.skip=true appassembler:assemble

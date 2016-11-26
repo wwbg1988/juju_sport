@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+  <classPathEntry location="mysql-connector-java-5.1.31.jar" />
+
+  <context id="MySqlTables" targetRuntime="MyBatis3">
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        connectionURL="jdbc:mysql://192.168.1.175:3306/juju-sport"
+        userId="juju"
+        password="123456">
+    </jdbcConnection>
+
+    <javaTypeResolver >
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+
+    <javaModelGenerator targetPackage="com.juju.sport.base.pojo" targetProject="src/main/java">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+
+    <sqlMapGenerator targetPackage="com.juju.sport.base.mapper"  targetProject="src/main/java">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.juju.sport.base.mapper"  targetProject="src/main/java">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+
+	<!--
+	<table tableName="wd_user_account" domainObjectName="UserAccount" /> 
+	<table tableName="wd_admin_account" domainObjectName="AdminAccount" /> -->
+
+	<!--<table tableName="wd_users" domainObjectName="Users" /> -->
+		<table tableName="juju_messages" domainObjectName="Messages" /> 
+  </context>
+</generatorConfiguration>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>返现订单 用户可以确认该订单生成体现单</title>
+    <script type="text/javascript" src="http://dev.ai9love.com/static/scripts/jquery-1.7.2.min.js"></script>
+    <script>
+        $(function(){
+//            $('#btn_showShop').click(function(){
+                $.ajax({
+                    url:'/orders/query.do',
+                    type:'post',
+                    dataType:'json',
+                    data:{currPage:1,pageSize:20},
+                    //data:{sellerId:$('#sellerId').val(),mobileNo:$('#mobileNo').val(),telephone:$('#telephone').val(),appointTime:$('#appointTime').val(),memo:$('#memo').val()},
+                    success:function(data){
+                        var divObj = $("#view_showShop");
+                        var tdHtml="";
+                        $.each(data.results, function(i,val){
+                            var tdObj = $('<tr><td>'+val.id+'</td><td>'+val.orderBuyerId+'</td><td>'+val.sellerId+'</td><td>'+val.orderStatus+'</td></tr>');
+                            var btnNew = $('<input type="button" value="生成提现单"/>');
+                            $(btnNew).click(function () {
+                                appoint(val.id);
+                            });
+                            divObj.append(tdObj);
+                            divObj.append(btnNew);
+
+                        });
+                    }
+//                })
+            });
+        });
+
+        var appoint = function(orderId){
+            var data_param = {
+                orderId:orderId
+            };
+            $.ajax({
+                url:'/withdraw/save.do',
+                type:'post',
+                dataType:'json',
+                data:data_param,
+                success:function(data){
+                    alert(data.message);
+                }
+            })
+        };
+    </script>
+</head>
+<body>
+<div id="head">
+    <p><h3>返现订单 用户可以确认该订单生成体现单</h3></p>
+</div>
+<style>
+    td {
+        padding:5px;
+    }
+</style>
+<div id="main">
+    <!--<input id="btn_showShop" value="查看产品" type="button"/>-->
+
+    <div id="view_showShop">
+
+    </div>
+
+
+</div>
+</body>
+</html>

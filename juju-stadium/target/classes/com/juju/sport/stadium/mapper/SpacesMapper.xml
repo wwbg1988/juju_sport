@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.stadium.mapper.SpacesMapper" >
+ 
+ <update id="updateSpace" parameterType="com.juju.sport.stadium.dto.SpaceDto">
+ 	update juju_space set sport_id=#{sportId},space_name=#{spaceName},price=#{price},stat=#{stat},max_number=#{maxNumber},images=#{images},min_number=#{minNumber} where id=#{id}
+ 	 </update>
+ 	  <update id="deleteSpace" parameterType="com.juju.sport.stadium.dto.SpaceDto">
+ 	update juju_space set stat=0 where id=#{id}
+ 	 </update>
+ 	 <select id="findCountSpaceById" parameterType="com.juju.sport.stadium.dto.SpaceDto" resultType="Integer">
+ 	 	select count(*) from juju_space where user_account_id=#{userAccountId} and stat=1
+ 	 	<if test="spaceName!=null">
+ 	 		and space_name like #{spaceName}
+ 	 	</if>
+ 	 </select>
+</mapper>

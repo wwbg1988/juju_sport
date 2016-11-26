@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.user.mapper.TeamListViewMapper" >
+   <resultMap id="BaseResultMap" type="com.juju.sport.user.dto.TeamListViewDto" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="team_id" property="teamId" jdbcType="VARCHAR" />
+    <result column="user_account_id" property="userAccountId" jdbcType="VARCHAR" />
+    <result column="telephone" property="telephone" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="last_update_time" property="lastUpdateTime" jdbcType="TIMESTAMP" />
+    <result column="stat" property="stat" jdbcType="INTEGER" />
+    
+    <result column="team_name" property="teamName" jdbcType="VARCHAR" />
+    <result column="war_type" property="warType" jdbcType="INTEGER" />
+    <result column="join_num" property="joinNum" jdbcType="INTEGER" />
+    <result column="max_num" property="maxNum" jdbcType="INTEGER" />
+    <result column="thumbnail" property="thumbnail" jdbcType="VARCHAR"/>
+    <result column="sport_id" property="sportId" jdbcType="VARCHAR"/>
+    <result column="war_desc" property="warDesc" jdbcType="INTEGER" />
+    <result column="nick_name" property="nickName" jdbcType="VARCHAR"/>
+    <result column="team_position" property="teamPosition" jdbcType="VARCHAR"/>
+     <result column="user_image" property="userImage" jdbcType="VARCHAR"/>
+    
+  </resultMap>
+	 <select id="findAllTeam" resultMap="BaseResultMap">
+		 <!-- SELECT a.*,b.team_name,b.war_type,b.join_num,b.max_num,b.thumbnail FROM juju_team_list a 
+		 INNER JOIN juju_team b ON a.team_id = b.id WHERE 1=1   AND b.stat=1 AND a.stat=1 --> 
+		<!--  SELECT * FROM juju_team a WHERE  a.stat=1  
+		 <include refid="where_clause_1" />
+		 ORDER BY create_time DESC
+		 LIMIT #{page.startNum}, #{page.pageSize}  -->
+		 
+<!-- 		 SELECT a.* FROM juju_team a WHERE a.stat=1  AND a.sport_id NOT IN(SELECT b.sport_id FROM juju_team b WHERE b.stat=1 and b.user_account_id =  #{teamListDto.userAccountId})  ORDER BY a.create_time DESC	LIMIT #{page.startNum}, #{page.pageSize} 	 
+ -->		
+ 
+ 			 select * from juju_team c where c.id not in (
+				  select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1
+				) and c.sport_id not in (
+				  select c.sport_id from juju_team c where c.id in (
+					   select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1
+				  )
+				) and c.stat=1 
+			 ORDER BY c.create_time DESC	LIMIT #{page.startNum}, #{page.pageSize} 	
+	 </select>
+	
+	 <select id="count" resultType="java.lang.Long"> 	
+		<!-- SELECT count(*) FROM juju_team_list a 
+	    INNER JOIN juju_team b ON a.team_id = b.id WHERE 1=1  AND b.stat=1 AND a.stat=1   -->
+	    <!-- SELECT count(*) FROM juju_team a   WHERE  a.stat=1  
+	    <include refid="where_clause_1" /> -->
+	    <!--  SELECT count(*) FROM juju_team a WHERE a.stat=1  <include refid="where_clause_1" /> AND a.id NOT IN(SELECT b.team_id FROM juju_team_list b WHERE b.stat=1) -->
+	     select count(*) from juju_team c where c.id not in (
+				  select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1 
+				) and c.sport_id not in (
+				  select c.sport_id from juju_team c where c.id in (
+					   select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1
+				  )
+				) and c.stat=1
+	 </select>
+	 
+	 <select id="findAllTeamByPhone" resultMap="BaseResultMap">
+		 <!-- SELECT a.*,b.team_name,b.war_type,b.join_num,b.max_num,b.thumbnail, b.sport_id ,b.war_desc FROM juju_team_list a 
+		 INNER JOIN juju_team b ON a.team_id = b.id WHERE 1=1   AND b.stat=1 AND a.stat=1  -->
+		<!--  SELECT a.* FROM juju_team a WHERE a.stat=1  <include refid="where_clause_1" /> AND a.id NOT IN(SELECT b.team_id FROM juju_team_list b WHERE b.stat=1)  ORDER BY a.create_time DESC	LIMIT #{page.startNum}, #{page.pageSize} 	  -->
+		  select * from juju_team c where c.id not in (
+				  select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1
+				) and c.sport_id not in (
+				  select c.sport_id from juju_team c where c.id in (
+					   select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1
+				  )
+				) and c.stat=1 
+			 ORDER BY c.create_time DESC	LIMIT #{page.startNum}, #{page.pageSize} 	
+	 </select>
+	
+	 <select id="selectAllTeamByPhone" resultType="java.lang.Long"> 	
+		<!-- SELECT count(*) FROM juju_team_list a 
+	    INNER JOIN juju_team b ON a.team_id = b.id WHERE 1=1  AND b.stat=1 AND a.stat=1   -->
+	   <!--  SELECT count(*) FROM juju_team a WHERE a.stat=1  <include refid="where_clause_1" /> AND a.id NOT IN(SELECT b.team_id FROM juju_team_list b WHERE b.stat=1) -->
+	      select count(*) from juju_team c where c.id not in (
+				  select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1 
+				) and c.sport_id not in (
+				  select c.sport_id from juju_team c where c.id in (
+					   select a.team_id from juju_team_list a where a.user_account_id = #{teamListDto.userAccountId} and a.stat=1
+				  )
+				) and c.stat=1
+	 </select>
+
+ 	 <select id="findTeamsAndSportId" resultMap="BaseResultMap">
+ 		SELECT a.*,b.sport_id from juju_team_list a LEFT JOIN juju_team b on a.team_id = b.id  WHERE a.stat = 1 and b.stat = 1 
+		<if test="userAccountId != null" >
+			and a.user_account_id = #{userAccountId} 
+		</if>
+		<if test="sportId != null" >
+			and b.sport_id = #{sportId} 
+		</if>
+	 </select>
+	 
+	<select id="findFootClub" parameterType="com.juju.sport.user.pojo.TeamList" resultType="com.juju.sport.user.pojo.TeamList">
+		 select li.id,li.team_id as teamId,li.user_account_id as userAccountId from juju_team te inner join juju_team_list li on li.team_id = te.id where te.stat = 1 and sport_id = 1 and li.stat=1 and li.status =1 and li.user_account_id=#{teamList.userAccountId}
+		 <if test="teamList.teamPosition!=null">
+		 and li.team_position =#{teamList.teamPosition}
+		 </if>
+	</select>
+
+
+	 
+	 <sql id="where_clause_1" >
+		<if test="teamListDto.userAccountId != null" >
+			and a.user_account_id != #{teamListDto.userAccountId} 
+		</if>	
+	 </sql>
+	 
+	  <select id="showTeamMembers" resultMap="BaseResultMap">
+ 		SELECT a.*,c.nick_name,c.user_image,b.thumbnail FROM juju_team_list a left JOIN juju_users c on a.user_account_id = c.user_account_id left JOIN juju_team b ON a.team_id = b.id WHERE a.team_id =  #{id}
+	  </select>
+	 
+</mapper>

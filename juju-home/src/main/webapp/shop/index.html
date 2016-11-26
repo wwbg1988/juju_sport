@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>店铺展示</title>
+    <script type="text/javascript" src="http://dev.ai9love.com/static/scripts/jquery-1.7.2.min.js"></script>
+    <script>
+        $(function(){
+            $('#btn_showShop').click(function(){
+                $.ajax({
+                    url:'/shop/queryShop.do',
+                    type:'post',
+                    dataType:'json',
+                    data:{currPage:1,pageSize:20},
+                    //data:{sellerId:$('#sellerId').val(),mobileNo:$('#mobileNo').val(),telephone:$('#telephone').val(),appointTime:$('#appointTime').val(),memo:$('#memo').val()},
+                    success:function(data){
+                        var divObj = $("#view_showShop");
+                        var divNew="";
+                        var btnNew="";
+                        $.each(data.results, function(i,val){
+                           var shopName = val.name;
+                            divNew = $('<tr><td>'+shopName+'</td></tr>');
+                            btnNew = $('<input type="button" value="预约"/>');
+                            $(btnNew).click(function () {
+                                appoint(val.id);
+                            });
+                            divObj.append(divNew);
+                            divObj.append(btnNew);
+
+                        });
+                    }
+                })
+            });
+        });
+
+        function appoint (shopId){
+            var data_param = {shopId:shopId,sellerId:111111};
+            $.ajax({
+                url:'/appoint/save.do',
+                type:'post',
+                dataType:'json',
+                data:data_param,
+                success:function(data){
+                    if(data.success){
+                        alert("预约成功");
+                    }else{
+                        alert("预约失败");
+                    }
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+<div id="head">
+    <p><h3>店铺展示</h3></p>
+</div>
+
+<div id="main">
+    <input id="btn_showShop" value="查看店铺" type="button"/>
+
+    <div id="view_showShop">
+
+    </div>
+
+
+</div>
+</body>
+</html>

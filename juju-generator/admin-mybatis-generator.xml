@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+  <classPathEntry location="mysql-connector-java-5.1.31.jar" />
+
+  <context id="MySqlTables" targetRuntime="MyBatis3">
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        connectionURL="jdbc:mysql://115.29.245.7:3306/wedding"
+        userId="bridal"
+        password="bridal">
+    </jdbcConnection>
+
+    <javaTypeResolver >
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+
+    <javaModelGenerator targetPackage="com.wedding.admin.manager.pojo" targetProject="src/main/java">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+
+    <sqlMapGenerator targetPackage="com.wedding.admin.manager.mapper"  targetProject="src/main/java">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.wedding.admin.manager.mapper"  targetProject="src/main/java">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+
+	<!--
+	<table tableName="admin_menu" domainObjectName="Menu" /> 
+	<table tableName="admin_menu_group" domainObjectName="MenuGroup" />
+	<table tableName="admin_role" domainObjectName="Role" />
+	<table tableName="admin_role_menu" domainObjectName="RoleMenu" />
+	<table tableName="admin_account_action" domainObjectName="AccountAction" />
+	<table tableName="admin_action" domainObjectName="Action" />
+	<table tableName="admin_role_action" domainObjectName="RoleAction" /> 
+	<table tableName="admin_account_menu" domainObjectName="AccountMenu" /> -->
+	<table tableName="admin_role_menu" domainObjectName="RoleMenu" />
+  </context>
+</generatorConfiguration>

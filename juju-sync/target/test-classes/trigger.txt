@@ -1,0 +1,12 @@
+//-----items watch trigger
+create trigger wd_data_sync_tg_del before delete on wd_items 
+for each row insert into wd_data_sync(table_name,key_name,key_value,opt_type) 
+values('wd_items','id', old.id, 'Delete');
+
+create trigger wd_data_sync_tg_upd after update on wd_items 
+ for each row insert into wd_data_sync(table_name,key_name,key_value,opt_type) 
+values('wd_items','id', new.id, 'Update');
+
+create trigger wd_data_sync_tg_ins after insert on wd_items 
+for each row insert into wd_data_sync(table_name,key_name,key_value,opt_type) 
+values('wd_items ','id',new.id, 'New');

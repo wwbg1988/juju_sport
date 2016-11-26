@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.game.mapper.RaceTeamExMapper" >
+	
+	 <select id="findRaceTeamByPage" resultType="com.juju.sport.game.dto.RaceTeamDto">
+	 	select receTeam.*, account.user_account userAccountName, type.sport_name sportName from 
+		(select team.id, team.team_name teamName, team.thumbnail thumbnail,team.war_type warType, team.sport_id sportId, 
+		team.contact contact, team.war_desc warDesc, team.order_id orderId, team.user_account_id userAccountId, team.max_num maxNum, 
+		team.join_num joinNum, team.create_time createTime, team.last_update_time lastUpdateTime, team.stat
+		from juju_team team, 
+		(select team_id from juju_race_team where race_id=#{query.raceId} and stat=1) race_team
+		where team.stat=1 and team.id = race_team.team_id 
+	     <include refid="where_clause_1" />
+		) receTeam
+		left join juju_user_account account on receTeam.userAccountId = account.id and account.stat=1 
+		left join juju_sport_type type on receTeam.sportId = type.id and type.stat = 1
+		limit  #{page.startNum}, #{page.pageSize}
+	 </select>
+	
+	<select id="countRaceTeam" resultType="java.lang.Long">
+		select count(*) from 
+		(select team.id, team.team_name teamName, team.thumbnail thumbnail,team.war_type warType, team.sport_id sportId, 
+		team.contact contact, team.war_desc warDesc, team.order_id orderId, team.user_account_id userAccountId, team.max_num maxNum, 
+		team.join_num joinNum, team.create_time createTime, team.last_update_time lastUpdateTime, team.stat
+		from juju_team team, 
+		(select team_id from juju_race_team where race_id=#{query.raceId} and stat=1) race_team
+		where team.stat=1 and team.id = race_team.team_id 
+		 <include refid="where_clause_1" />
+		) receTeam
+		left join juju_user_account account on receTeam.userAccountId = account.id and account.stat=1 
+		left join juju_sport_type type on receTeam.sportId = type.id and type.stat = 1
+	</select>
+	
+	
+	<select id="findNotEnterForRaceTeamByPage" resultType="com.juju.sport.game.dto.RaceTeamDto">
+	 	select team.id, team.team_name teamName, team.thumbnail thumbnail,team.war_type warType, team.sport_id sportId, team.contact contact, 
+		team.war_desc warDesc, team.order_id orderId, team.user_account_id userAccountId, team.max_num maxNum, team.join_num joinNum, team.create_time createTime, 
+		team.last_update_time lastUpdateTime, team.stat, race_team.race_id,account.user_account userAccountName, type.sport_name sportName 
+		from juju_team team
+		left join 
+		(select race_id, team_id from juju_race_team where stat=1 and race_id = #{query.raceId} ) race_team 
+		on team.stat=1 and team.id = race_team.team_id 
+		left join juju_user_account account on team.user_account_id = account.id and account.stat=1 
+		left join juju_sport_type type on team.sport_id = type.id and type.stat = 1
+		where team.stat = 1 and race_id is null 
+		<include refid="where_clause_1" />
+		limit  #{page.startNum}, #{page.pageSize}
+	 </select>
+	
+	<select id="countNotEnterForRaceTeam" resultType="java.lang.Long">
+		select count(*) from juju_team team
+		left join 
+		(select race_id, team_id from juju_race_team where stat=1 and race_id = #{query.raceId} ) race_team 
+		on team.stat=1 and team.id = race_team.team_id 
+		left join juju_user_account account on team.user_account_id = account.id and account.stat=1 
+		left join juju_sport_type type on team.sport_id = type.id and type.stat = 1
+		where team.stat = 1 and race_id is null 
+		<include refid="where_clause_1" />
+	</select>
+	
+	 <sql id="where_clause_1" >
+	 	<if test="query.raceTeamName != null" >
+	 		and team.team_name like #{query.raceTeamName}
+	 	</if>
+		<if test="query.sportType != null" >
+			and team.sport_id = #{query.sportType} 
+		</if>	
+	 </sql>
+	 
+	 
+	 <select id="findRaceTeamNotInScoreboard" resultType="com.juju.sport.game.dto.RaceTeamDto">
+	 	select receTeam.*, account.user_account userAccountName, type.sport_name sportName from 
+		(select team.id, team.team_name teamName, team.thumbnail thumbnail,team.war_type warType, team.sport_id sportId, 
+		team.contact contact, team.war_desc warDesc, team.order_id orderId, team.user_account_id userAccountId, team.max_num maxNum, 
+		team.join_num joinNum, team.create_time createTime, team.last_update_time lastUpdateTime, team.stat
+		from juju_team team, 
+		(select team_id from juju_race_team where race_id=#{raceId} and stat=1) race_team
+		where team.stat=1 and team.id = race_team.team_id 
+		) receTeam
+		left join juju_user_account account on receTeam.userAccountId = account.id and account.stat=1 
+		left join juju_sport_type type on receTeam.sportId = type.id and type.stat = 1 
+		where receTeam.id not in (
+			select team_id from juju_race_scoreboard where stat=1 and race_info_id=#{raceId} 
+		)
+		limit #{page.startNum}, #{page.pageSize};
+	 </select>
+	
+	<select id="countRaceTeamNotInScoreboard" resultType="java.lang.Long">
+		select count(*) from 
+		(select team.id, team.team_name teamName, team.thumbnail thumbnail,team.war_type warType, team.sport_id sportId, 
+		team.contact contact, team.war_desc warDesc, team.order_id orderId, team.user_account_id userAccountId, team.max_num maxNum, 
+		team.join_num joinNum, team.create_time createTime, team.last_update_time lastUpdateTime, team.stat
+		from juju_team team, 
+		(select team_id from juju_race_team where race_id=#{raceId} and stat=1) race_team
+		where team.stat=1 and team.id = race_team.team_id 
+		) receTeam
+		left join juju_user_account account on receTeam.userAccountId = account.id and account.stat=1 
+		left join juju_sport_type type on receTeam.sportId = type.id and type.stat = 1 
+		where receTeam.id not in (
+			select team_id from juju_race_scoreboard where stat=1 and race_info_id=#{raceId} 
+		)
+	</select>
+	 
+</mapper>

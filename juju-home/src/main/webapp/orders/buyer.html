@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>订单功能测试</title>
+    <script type="text/javascript" src="http://dev.ai9love.com/static/scripts/jquery-1.7.2.min.js"></script>
+    <style type="text/css" rel="stylesheet">
+        body{font-size:12px;}
+        #slideBar{float:left;width:200px;}
+        #main{width:100%;border:1px solid red;float:left;min-height:400px;}
+    </style>
+    <script>
+        $(function(){
+            $('#btn_myOrders').click(function(){
+                alert(1);
+            });
+            $('#btn_myAppoints').click(function(){
+                alert(2);
+            });
+            $('#btn_action_appoint').click(function(){
+                $.ajax({
+                    url:'/home/appoint/save.do',
+                    type:'post',
+                    dataType:'json',
+                    data:{sellerId:$('#sellerId').val(),mobileNo:$('#mobileNo').val(),telephone:$('#telephone').val(),appointTime:$('#appointTime').val(),memo:$('#memo').val()},
+                    success:function(data){
+                        if(data.success){
+                            alert(data.message);
+                        }
+                    }
+                })
+            });
+        })
+    </script>
+</head>
+<body>
+<div id="head">
+    <p><h3>订单和预约功能测试（用户端）</h3></p>
+</div>
+<div id="slideBar">
+    <ul>
+        <li><a href="#" id="btn_save_appoint">预约商家</a></li>
+        <li><a href="#" id="btn_myOrders">我的订单</a></li>
+        <li><a href="#" id="btn_myAppoints">我的预约</a></li>
+    </ul>
+</div>
+<div id="main">
+    <div id="save_appoint">
+        <h3>商家预约</h3>
+        <div>商家ID:<span><input id="sellerId" name="sellerId" type="text" value="331cb9af-6c2d-4642-8809-3daee1e56fb4"/></span></div>
+        <div>手机:<span><input id="mobileNo" name="mobileNo" type="text" /></span></div>
+        <div>电话:<span><input id="telephone" name="telephone" type="text" /></span></div>
+        <div>预约时间:<span><input id="appointTime" name="appointTime" type="text" /></span></div>
+        <div>备注:<span><textarea id="memo"></textarea></span></div>
+        <button id="btn_action_appoint">预约</button>
+        <h3>我的订单</h3>
+        <div>
+            <table>
+                <tr>
+                    <td>订单ID</td>
+                    <td>订单号</td>
+                </tr>
+                <tbody id="orderData">
+
+                </tbody>
+            </table>
+        </div>
+        <h3>我的预约</h3>
+    </div>
+    <div id="myOrders"></div>
+    <div id="myAppoints"></div>
+</div>
+</body>
+</html>

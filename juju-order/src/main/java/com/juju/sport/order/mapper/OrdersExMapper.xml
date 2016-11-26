@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.order.mapper.OrdersExMapper" >
+	
+	 <select id="findByPage" resultType="com.juju.sport.order.dto.OrderDto">
+	 	select orders.id id, orders.order_no orderNo, orders.telephone telephone, orders.order_total orderTotal, orders.order_status orderStatus,
+		  orders.payment_status paymentStatus, orders.user_account_id userAccountId, orders.owner_account_id ownerAccountId, orders.order_time orderTime, orders.create_time createTime,
+		  orders.last_update_time lastUpdateTime, orders.stat stat, users.real_name userName, venues.nick_name venuesName
+		from 
+		(select * from juju_orders 
+			where stat=1 
+			<include refid="where_clause_1" />
+			order by create_time asc 
+		) orders 
+		left join 
+		juju_users users on users.user_account_id = orders.user_account_id and users.stat=1 
+		left join 
+		juju_venues_info venues on venues.user_account_id = orders.owner_account_id and venues.stat=1
+		limit #{page.startNum}, #{page.pageSize} 
+	 </select>
+	
+	 <select id="count" resultType="java.lang.Long"> 	
+		select count(*) from 
+		(select * from juju_orders 
+			where stat=1 
+			<include refid="where_clause_1" />
+		) orders 
+		left join 
+		juju_users users on users.user_account_id = orders.user_account_id and users.stat=1 
+		left join 
+		juju_venues_info venues on venues.user_account_id = orders.user_account_id and venues.stat=1
+	 </select>
+	 
+	 <sql id="where_clause_1" >
+	 	<if test="query.beginTime != null" >
+	 		and create_time &gt;= #{query.beginTime}
+	 	</if>
+		<if test="query.endTime != null" >
+			and create_time &lt; #{query.endTime} 
+		</if>	
+		<if test="query.orderNo != null" >
+			and order_no like #{query.orderNo} 
+		</if>
+		<if test="query.beginAmount != null" >
+			and order_total &gt;= #{query.beginAmount} 
+		</if>
+		<if test="query.endAmount != null" >
+			and order_total &lt;= #{query.endAmount} 
+		</if>
+		<if test="query.orderStatus != null" >
+			and order_status = #{query.orderStatus} 
+		</if>
+		<if test="query.paymentStatus != null" >
+			and payment_status = #{query.paymentStatus} 
+		</if>
+	 </sql>
+	 
+</mapper>

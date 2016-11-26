@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>商家将预约单生成订单</title>
+    <script type="text/javascript" src="http://dev.ai9love.com/static/scripts/jquery-1.7.2.min.js"></script>
+    <script>
+        $(function(){
+//            $('#btn_showShop').click(function(){
+                $.ajax({
+                    url:'/appoint/show.do',
+                    type:'post',
+                    dataType:'json',
+                    data:{currPage:1,pageSize:20},
+                    //data:{sellerId:$('#sellerId').val(),mobileNo:$('#mobileNo').val(),telephone:$('#telephone').val(),appointTime:$('#appointTime').val(),memo:$('#memo').val()},
+                    success:function(data){
+                        var divObj = $("#view_showShop");
+                        var tdHtml="";
+                        $.each(data.results, function(i,val){
+                            var tdObj = $('<tr><td>'+val.id+'</td><td>'+val.userId+'</td><td>'+val.sellerId+'</td><td>'+val.memo+'</td></tr>');
+                            var btnNew = $('<input type="button" value="预约生成订单"/>');
+                            $(btnNew).click(function () {
+                                appoint(val.id);
+                            });
+                            divObj.append(tdObj);
+                            divObj.append(btnNew);
+
+                        });
+                    }
+//                })
+            });
+        });
+
+        var appoint = function(appointId){
+            var data_param = {
+                appointId:appointId,
+                buyerMobileNo:'18220818001',
+                orderType:1,
+                orderTotal:135000000,
+                orderBuyerId:111111
+            };
+            $.ajax({
+                url:'/orders/buildOrder.do',
+                type:'post',
+                dataType:'json',
+                data:data_param,
+                success:function(data){
+                    alert(data.message);
+                }
+            })
+        };
+    </script>
+</head>
+<body>
+<div id="head">
+    <p><h3>商家将预约单生成订单</h3></p>
+</div>
+<style>
+    td {
+        padding:5px;
+    }
+</style>
+<div id="main">
+    <!--<input id="btn_showShop" value="查看产品" type="button"/>-->
+
+    <div id="view_showShop">
+
+    </div>
+
+
+</div>
+</body>
+</html>

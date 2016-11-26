@@ -1,0 +1,1240 @@
+[WARN ][2015-06-08 08:52:19,565] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x310818b7]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:19,568] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xd07554cf]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:19,568] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x91aa6fb6]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:19,569] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x1c2bf2a7]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:19,570] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xaf35cac3]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:24,574] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xb36e42a1]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:24,575] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xa67b483e]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:24,575] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x23a4cbe0]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:24,576] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x9fdc5bbb]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:24,576] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x74bab866]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:24,577] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x5d55b2dc]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:24,578] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x9eb59cd4]], closing connection
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,589] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xcd8353e7]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,591] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x1956cb29]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,592] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x0e2ce697]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,592] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x17c3ab6a]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,593] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x4adbd55f]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,593] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x1a8b81f0]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,593] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xfaf0887d]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,594] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xdab3c705]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,594] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x0e82b646]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,595] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xbd47d308]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,595] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x6c5c2e10]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,596] - [Maynard Tiboldt] exception caught on transport layer [[id: 0xf1b3ec0d]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,596] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x01c3145f]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][2015-06-08 08:52:29,597] - [Maynard Tiboldt] exception caught on transport layer [[id: 0x17089b16]], closing connection
+java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2015-06-08 08:53:07,730] - Root WebApplicationContext: initialization started
+[INFO ][2015-06-08 08:53:07,819] - Refreshing Root WebApplicationContext: startup date [Mon Jun 08 08:53:07 CST 2015]; root of context hierarchy
+[INFO ][2015-06-08 08:53:07,856] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2015-06-08 08:53:08,453] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/persistence.xml]
+[INFO ][2015-06-08 08:53:08,512] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2015-06-08 08:53:08,532] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2015-06-08 08:53:08,552] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/elasticsearch.xml]
+[INFO ][2015-06-08 08:53:09,150] - Loading properties file from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/application.properties]
+[INFO ][2015-06-08 08:53:09,507] - Loading properties file from class path resource [application.properties]
+[INFO ][2015-06-08 08:53:12,662] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2015-06-08 08:53:12,936] - [Alkhema] loaded [], sites []
+[INFO ][2015-06-08 08:53:13,598] - adding transport node : 192.168.1.156:9300
+[ERROR][2015-06-08 08:53:15,941] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[ERROR][2015-06-08 08:53:15,999] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[INFO ][2015-06-08 08:53:16,044] - Root WebApplicationContext: initialization completed in 8313 ms
+[INFO ][2015-06-08 08:53:16,044] - ###### juju-home application start ######
+[INFO ][2015-06-08 08:53:16,094] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2015-06-08 08:53:16,096] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Mon Jun 08 08:53:16 CST 2015]; parent: Root WebApplicationContext
+[INFO ][2015-06-08 08:53:16,097] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2015-06-08 08:53:16,562] - Mapped URL path [/address/list.do] onto handler 'addressesController'
+[INFO ][2015-06-08 08:53:16,562] - Mapped URL path [/address/listByParentId.do] onto handler 'addressesController'
+[INFO ][2015-06-08 08:53:16,562] - Mapped URL path [/api/success.do] onto handler 'alipayController'
+[INFO ][2015-06-08 08:53:16,562] - Mapped URL path [/api/notifyUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-08 08:53:16,563] - Mapped URL path [/api/returnUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-08 08:53:16,563] - Mapped URL path [/api/saveCard.do] onto handler 'cardController'
+[INFO ][2015-06-08 08:53:16,563] - Mapped URL path [/complaint/insertComplaint.do] onto handler 'complaintController'
+[INFO ][2015-06-08 08:53:16,563] - Mapped URL path [/draw/drawRandom.do] onto handler 'drawRandomController'
+[INFO ][2015-06-08 08:53:16,563] - Mapped URL path [/email/send.do] onto handler 'emailController'
+[INFO ][2015-06-08 08:53:16,563] - Mapped URL path [/email/validate.do] onto handler 'emailController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/exchange/query.do] onto handler 'exchangeController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/exchange/exchange.do] onto handler 'exchangeController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/family/getHeath.do] onto handler 'familyController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/family/getLetter.do] onto handler 'familyController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/family/getSpecifications.do] onto handler 'familyController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/family/getSportExaminationList.do] onto handler 'familyController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/family/getSportIntroductionList.do] onto handler 'familyController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/family/getSportIntroductionListAll.do] onto handler 'familyController'
+[INFO ][2015-06-08 08:53:16,564] - Mapped URL path [/family/getSportIntroductionDetail.do] onto handler 'familyController'
+[INFO ][2015-06-08 08:53:16,565] - Mapped URL path [/api/rest/checkUser.do] onto handler 'deviceUsersController'
+[INFO ][2015-06-08 08:53:16,565] - Mapped URL path [/api/rest/venues/info.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 08:53:16,565] - Mapped URL path [/api/rest/card/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 08:53:16,565] - Mapped URL path [/api/rest/phone/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 08:53:16,565] - Mapped URL path [/api/rest/tdc/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 08:53:16,565] - Mapped URL path [/api/rest/venues/updateInfoByTdc.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 08:53:16,565] - Mapped URL path [/api/rest/venues/updateInfoByPhone.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/home/index.do] onto handler 'indexController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/home/newsList.do] onto handler 'indexController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/home/eventList.do] onto handler 'indexController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/m/notifyUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/m/returnUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/m/code/create.do] onto handler 'dimensionCodeController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/m/messages/loadMessages.do] onto handler 'messageMController'
+[INFO ][2015-06-08 08:53:16,566] - Mapped URL path [/api/m/orderBuy/buy.do] onto handler 'orderBuyMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/preOrder/data.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/SMS/send.do] onto handler 'smsMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/team/findTeams.do] onto handler 'teamMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/upload/deal.do] onto handler 'uploadMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/umanages/register.do] onto handler 'userMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/umanages/login.do] onto handler 'userMController'
+[INFO ][2015-06-08 08:53:16,567] - Mapped URL path [/api/m/venue/query.do] onto handler 'venueMController'
+[INFO ][2015-06-08 08:53:16,568] - Mapped URL path [/api/m/version/query.do] onto handler 'versionController'
+[INFO ][2015-06-08 08:53:16,568] - Mapped URL path [/api/message/findOrderByMess.do] onto handler 'messageController'
+[INFO ][2015-06-08 08:53:16,568] - Mapped URL path [/api/message/findMessByOwner.do] onto handler 'messageController'
+[INFO ][2015-06-08 08:53:16,568] - Mapped URL path [/api/message/findVenusMess.do] onto handler 'messageController'
+[INFO ][2015-06-08 08:53:16,568] - Mapped URL path [/api/message/insert.do] onto handler 'messageController'
+[INFO ][2015-06-08 08:53:16,568] - Mapped URL path [/api/message/findComplaint.do] onto handler 'messageController'
+[INFO ][2015-06-08 08:53:16,568] - Mapped URL path [/myMessage/findMyMessageby.do] onto handler 'myMessageController'
+[INFO ][2015-06-08 08:53:16,569] - Mapped URL path [/api/orderBuy/{orderId}.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 08:53:16,569] - Mapped URL path [/api/orderBuy/buy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 08:53:16,569] - Mapped URL path [/api/orderBuy/checkBuy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 08:53:16,569] - Mapped URL path [/api/orderBuy/payWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 08:53:16,569] - Mapped URL path [/api/orderBuy/teamWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 08:53:16,569] - Mapped URL path [/api/orderBuy/orderWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 08:53:16,569] - Mapped URL path [/order/userList.do] onto handler 'orderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/order/items/list.do] onto handler 'orderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/order/registration.do] onto handler 'orderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/order/operation.do] onto handler 'orderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/order/items/search.do] onto handler 'orderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/order/showRaceInfos.do] onto handler 'orderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/pay/index.do] onto handler 'payController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/preOrder/dateList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 08:53:16,570] - Mapped URL path [/preOrder/weatherList.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/race/findAll.do] onto handler 'raceController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/race/loadRaceScore.do] onto handler 'raceController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/race/poly_event.do] onto handler 'raceController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/race/event_info.do] onto handler 'raceController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/race/ajaxJumpInfos.do] onto handler 'raceController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/race/findDetail.do] onto handler 'raceController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/serviceType/list.do] onto handler 'serviceTypeController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/SMS/send.do] onto handler 'SMSController'
+[INFO ][2015-06-08 08:53:16,571] - Mapped URL path [/SMS/validate.do] onto handler 'SMSController'
+[INFO ][2015-06-08 08:53:16,572] - Mapped URL path [/SMS/validatePhone.do] onto handler 'SMSController'
+[INFO ][2015-06-08 08:53:16,572] - Mapped URL path [/space/list.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,572] - Mapped URL path [/space/save.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,572] - Mapped URL path [/space/delete.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,572] - Mapped URL path [/space/#.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,572] - Mapped URL path [/space/findAll.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/space/findUpdateInfo.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/space/jumpInfos.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/space/updateSpaceMaster.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/space/update.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/space/findSearch.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/space/insertSave.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/space/findOpen.do] onto handler 'spaceController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/sportType/list.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/sportType/wuweiUserlist.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/sportType/findAll.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/sportType/findByStad] onto handler 'sportTypeController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/sportType/findByStad.*] onto handler 'sportTypeController'
+[INFO ][2015-06-08 08:53:16,573] - Mapped URL path [/sportType/findByStad/] onto handler 'sportTypeController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/{ownerAccountId}.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/addOrUpdateStadiumInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/showVenuesInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/findvenuesMessage.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/message.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/findNameBySportType.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/findChooseByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,574] - Mapped URL path [/stadium/findStadByName.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,575] - Mapped URL path [/stadium/jumpInfos.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,575] - Mapped URL path [/stadium/registerSite.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,575] - Mapped URL path [/stadium/findStadByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,575] - Mapped URL path [/stadium/showVenues.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 08:53:16,575] - Mapped URL path [/api/temp/upload.do] onto handler 'tempUploadController'
+[INFO ][2015-06-08 08:53:16,575] - Mapped URL path [/api//upload.do] onto handler 'uploadController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/register.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/checkrepeat.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/drawRandom.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/addOrUpdateUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/regUserByThird.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/login.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/showUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/loadEmail.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/umanages.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/check_OPW.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/loadInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/loginout.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,576] - Mapped URL path [/umanages/modifyPwd.do] onto handler 'userController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/join.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/save.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/cancel.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/list.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/findBy.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/findTeams.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/showMembersInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/joinlist.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/modify.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/showInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,577] - Mapped URL path [/user/team/releaseFright.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 08:53:16,591] - FrameworkServlet 'appServlet': initialization completed in 497 ms
+[INFO ][2015-06-08 15:39:39,733] - Root WebApplicationContext: initialization started
+[INFO ][2015-06-08 15:39:39,841] - Refreshing Root WebApplicationContext: startup date [Mon Jun 08 15:39:39 CST 2015]; root of context hierarchy
+[INFO ][2015-06-08 15:39:39,879] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2015-06-08 15:39:40,532] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/persistence.xml]
+[INFO ][2015-06-08 15:39:40,594] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2015-06-08 15:39:40,612] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2015-06-08 15:39:40,631] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/elasticsearch.xml]
+[INFO ][2015-06-08 15:39:41,241] - Loading properties file from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/application.properties]
+[INFO ][2015-06-08 15:39:41,601] - Loading properties file from class path resource [application.properties]
+[INFO ][2015-06-08 15:39:45,017] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2015-06-08 15:39:45,316] - [Sam Wilson] loaded [], sites []
+[INFO ][2015-06-08 15:39:46,000] - adding transport node : 192.168.1.156:9300
+[ERROR][2015-06-08 15:39:48,391] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[ERROR][2015-06-08 15:39:48,462] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[INFO ][2015-06-08 15:39:48,527] - Root WebApplicationContext: initialization completed in 8776 ms
+[INFO ][2015-06-08 15:39:48,527] - ###### juju-home application start ######
+[INFO ][2015-06-08 15:39:48,586] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2015-06-08 15:39:48,588] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Mon Jun 08 15:39:48 CST 2015]; parent: Root WebApplicationContext
+[INFO ][2015-06-08 15:39:48,589] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2015-06-08 15:39:49,041] - Mapped URL path [/address/list.do] onto handler 'addressesController'
+[INFO ][2015-06-08 15:39:49,041] - Mapped URL path [/address/listByParentId.do] onto handler 'addressesController'
+[INFO ][2015-06-08 15:39:49,041] - Mapped URL path [/api/success.do] onto handler 'alipayController'
+[INFO ][2015-06-08 15:39:49,041] - Mapped URL path [/api/notifyUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-08 15:39:49,041] - Mapped URL path [/api/returnUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-08 15:39:49,041] - Mapped URL path [/api/saveCard.do] onto handler 'cardController'
+[INFO ][2015-06-08 15:39:49,041] - Mapped URL path [/complaint/insertComplaint.do] onto handler 'complaintController'
+[INFO ][2015-06-08 15:39:49,042] - Mapped URL path [/draw/drawRandom.do] onto handler 'drawRandomController'
+[INFO ][2015-06-08 15:39:49,042] - Mapped URL path [/email/send.do] onto handler 'emailController'
+[INFO ][2015-06-08 15:39:49,042] - Mapped URL path [/email/validate.do] onto handler 'emailController'
+[INFO ][2015-06-08 15:39:49,042] - Mapped URL path [/exchange/query.do] onto handler 'exchangeController'
+[INFO ][2015-06-08 15:39:49,042] - Mapped URL path [/exchange/exchange.do] onto handler 'exchangeController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/family/getSpecifications.do] onto handler 'familyController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/family/getSportExaminationList.do] onto handler 'familyController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/family/getSportIntroductionList.do] onto handler 'familyController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/family/getSportIntroductionListAll.do] onto handler 'familyController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/family/getSportIntroductionDetail.do] onto handler 'familyController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/family/getHeath.do] onto handler 'familyController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/family/getLetter.do] onto handler 'familyController'
+[INFO ][2015-06-08 15:39:49,043] - Mapped URL path [/api/rest/checkUser.do] onto handler 'deviceUsersController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/rest/venues/updateInfoByTdc.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/rest/venues/updateInfoByPhone.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/rest/venues/info.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/rest/card/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/rest/phone/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/rest/tdc/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/home/index.do] onto handler 'indexController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/home/newsList.do] onto handler 'indexController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/home/eventList.do] onto handler 'indexController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/m/notifyUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-08 15:39:49,044] - Mapped URL path [/api/m/returnUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-08 15:39:49,045] - Mapped URL path [/api/m/code/create.do] onto handler 'dimensionCodeController'
+[INFO ][2015-06-08 15:39:49,045] - Mapped URL path [/api/m/messages/loadMessages.do] onto handler 'messageMController'
+[INFO ][2015-06-08 15:39:49,045] - Mapped URL path [/api/m/orderBuy/buy.do] onto handler 'orderBuyMController'
+[INFO ][2015-06-08 15:39:49,045] - Mapped URL path [/api/m/preOrder/data.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 15:39:49,045] - Mapped URL path [/api/m/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 15:39:49,045] - Mapped URL path [/api/m/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 15:39:49,046] - Mapped URL path [/api/m/SMS/send.do] onto handler 'smsMController'
+[INFO ][2015-06-08 15:39:49,046] - Mapped URL path [/api/m/team/findTeams.do] onto handler 'teamMController'
+[INFO ][2015-06-08 15:39:49,046] - Mapped URL path [/api/m/upload/deal.do] onto handler 'uploadMController'
+[INFO ][2015-06-08 15:39:49,046] - Mapped URL path [/api/m/umanages/register.do] onto handler 'userMController'
+[INFO ][2015-06-08 15:39:49,046] - Mapped URL path [/api/m/umanages/login.do] onto handler 'userMController'
+[INFO ][2015-06-08 15:39:49,046] - Mapped URL path [/api/m/venue/query.do] onto handler 'venueMController'
+[INFO ][2015-06-08 15:39:49,047] - Mapped URL path [/api/m/version/query.do] onto handler 'versionController'
+[INFO ][2015-06-08 15:39:49,047] - Mapped URL path [/api/message/findOrderByMess.do] onto handler 'messageController'
+[INFO ][2015-06-08 15:39:49,047] - Mapped URL path [/api/message/findMessByOwner.do] onto handler 'messageController'
+[INFO ][2015-06-08 15:39:49,047] - Mapped URL path [/api/message/findVenusMess.do] onto handler 'messageController'
+[INFO ][2015-06-08 15:39:49,047] - Mapped URL path [/api/message/insert.do] onto handler 'messageController'
+[INFO ][2015-06-08 15:39:49,047] - Mapped URL path [/api/message/findComplaint.do] onto handler 'messageController'
+[INFO ][2015-06-08 15:39:49,047] - Mapped URL path [/myMessage/findMyMessageby.do] onto handler 'myMessageController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/api/orderBuy/{orderId}.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/api/orderBuy/buy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/api/orderBuy/checkBuy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/api/orderBuy/payWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/api/orderBuy/teamWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/api/orderBuy/orderWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/order/operation.do] onto handler 'orderController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/order/userList.do] onto handler 'orderController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/order/items/list.do] onto handler 'orderController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/order/registration.do] onto handler 'orderController'
+[INFO ][2015-06-08 15:39:49,048] - Mapped URL path [/order/items/search.do] onto handler 'orderController'
+[INFO ][2015-06-08 15:39:49,049] - Mapped URL path [/order/showRaceInfos.do] onto handler 'orderController'
+[INFO ][2015-06-08 15:39:49,049] - Mapped URL path [/pay/index.do] onto handler 'payController'
+[INFO ][2015-06-08 15:39:49,049] - Mapped URL path [/preOrder/dateList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 15:39:49,049] - Mapped URL path [/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 15:39:49,049] - Mapped URL path [/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 15:39:49,049] - Mapped URL path [/preOrder/weatherList.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/race/findAll.do] onto handler 'raceController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/race/loadRaceScore.do] onto handler 'raceController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/race/poly_event.do] onto handler 'raceController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/race/event_info.do] onto handler 'raceController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/race/ajaxJumpInfos.do] onto handler 'raceController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/race/findDetail.do] onto handler 'raceController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/serviceType/list.do] onto handler 'serviceTypeController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/SMS/send.do] onto handler 'SMSController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/SMS/validate.do] onto handler 'SMSController'
+[INFO ][2015-06-08 15:39:49,050] - Mapped URL path [/SMS/validatePhone.do] onto handler 'SMSController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/list.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/save.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/delete.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/#.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/findUpdateInfo.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/findAll.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/jumpInfos.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/updateSpaceMaster.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/update.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/findSearch.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/insertSave.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,051] - Mapped URL path [/space/findOpen.do] onto handler 'spaceController'
+[INFO ][2015-06-08 15:39:49,052] - Mapped URL path [/sportType/list.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 15:39:49,052] - Mapped URL path [/sportType/wuweiUserlist.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 15:39:49,052] - Mapped URL path [/sportType/findAll.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 15:39:49,052] - Mapped URL path [/sportType/findByStad] onto handler 'sportTypeController'
+[INFO ][2015-06-08 15:39:49,052] - Mapped URL path [/sportType/findByStad.*] onto handler 'sportTypeController'
+[INFO ][2015-06-08 15:39:49,052] - Mapped URL path [/sportType/findByStad/] onto handler 'sportTypeController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/{ownerAccountId}.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/addOrUpdateStadiumInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/showVenuesInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/findvenuesMessage.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/message.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/findNameBySportType.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/findChooseByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/findStadByName.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/jumpInfos.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/registerSite.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/findStadByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/stadium/showVenues.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 15:39:49,053] - Mapped URL path [/api/temp/upload.do] onto handler 'tempUploadController'
+[INFO ][2015-06-08 15:39:49,054] - Mapped URL path [/api//upload.do] onto handler 'uploadController'
+[INFO ][2015-06-08 15:39:49,054] - Mapped URL path [/umanages/register.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,054] - Mapped URL path [/umanages/addOrUpdateUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/regUserByThird.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/checkrepeat.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/drawRandom.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/login.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/showUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/loadEmail.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/umanages.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/check_OPW.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/loadInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/loginout.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,055] - Mapped URL path [/umanages/modifyPwd.do] onto handler 'userController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/join.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/save.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/cancel.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/showMembersInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/list.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/findBy.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/findTeams.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/joinlist.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/modify.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/showInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,056] - Mapped URL path [/user/team/releaseFright.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 15:39:49,070] - FrameworkServlet 'appServlet': initialization completed in 484 ms
+[INFO ][2015-06-08 15:39:53,438] - {"accessTime":"2015-06-08 15:39:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:39:53,438] - {"accessTime":"2015-06-08 15:39:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-08 15:39:53,438] - {"accessTime":"2015-06-08 15:39:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:39:53,438] - {"accessTime":"2015-06-08 15:39:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:39:53,438] - {"accessTime":"2015-06-08 15:39:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749193288"]}}
+[INFO ][2015-06-08 15:39:53,438] - {"accessTime":"2015-06-08 15:39:53","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:39:53,484] - slave
+[INFO ][2015-06-08 15:39:53,486] - slave
+[INFO ][2015-06-08 15:39:53,487] - slave
+[INFO ][2015-06-08 15:39:53,491] - slave
+[INFO ][2015-06-08 15:39:53,491] - slave
+[DEBUG][2015-06-08 15:39:53,909] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:39:53,909] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:39:53,909] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:39:53,912] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:39:53,912] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:39:53,912] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:39:53,935] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:39:53,935] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:39:53,935] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:39:53,937] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:39:53,937] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:39:53,938] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-08 15:39:53,938] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:39:53,938] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:39:53,939] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-08 15:39:53,953] - <==      Total: 1
+[DEBUG][2015-06-08 15:39:53,954] - <==      Total: 17
+[DEBUG][2015-06-08 15:39:53,954] - <==      Total: 3
+[DEBUG][2015-06-08 15:39:53,956] - <==      Total: 10
+[DEBUG][2015-06-08 15:39:53,959] - <==      Total: 22
+[INFO ][2015-06-08 15:39:53,982] - slave
+[DEBUG][2015-06-08 15:39:53,988] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[INFO ][2015-06-08 15:39:53,988] - slave
+[DEBUG][2015-06-08 15:39:53,988] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:39:53,988] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:39:53,990] - <==      Total: 1
+[DEBUG][2015-06-08 15:39:53,994] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:39:53,994] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:39:53,997] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:39:53,999] - <==      Total: 1
+[INFO ][2015-06-08 15:40:11,277] - {"accessTime":"2015-06-08 15:40:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:40:11,277] - {"accessTime":"2015-06-08 15:40:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:40:11,277] - {"accessTime":"2015-06-08 15:40:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-08 15:40:11,278] - slave
+[INFO ][2015-06-08 15:40:11,278] - slave
+[INFO ][2015-06-08 15:40:11,279] - slave
+[INFO ][2015-06-08 15:40:11,281] - {"accessTime":"2015-06-08 15:40:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749211212"]}}
+[INFO ][2015-06-08 15:40:11,281] - {"accessTime":"2015-06-08 15:40:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:40:11,281] - slave
+[DEBUG][2015-06-08 15:40:11,282] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:11,282] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:40:11,282] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:11,285] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:11,286] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:40:11,287] - ==> Parameters: 1(Integer), 2(Integer)
+[INFO ][2015-06-08 15:40:11,290] - {"accessTime":"2015-06-08 15:40:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:40:11,290] - slave
+[DEBUG][2015-06-08 15:40:11,294] - <==      Total: 3
+[DEBUG][2015-06-08 15:40:11,297] - <==      Total: 10
+[DEBUG][2015-06-08 15:40:11,297] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:11,298] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:40:11,299] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-08 15:40:11,299] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:11,299] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:11,299] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:40:11,300] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:40:11,300] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:40:11,300] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[INFO ][2015-06-08 15:40:11,301] - slave
+[INFO ][2015-06-08 15:40:11,302] - slave
+[DEBUG][2015-06-08 15:40:11,304] - <==      Total: 1
+[DEBUG][2015-06-08 15:40:11,308] - <==      Total: 22
+[DEBUG][2015-06-08 15:40:11,309] - <==      Total: 17
+[DEBUG][2015-06-08 15:40:11,309] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:11,309] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:11,310] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:40:11,311] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:11,311] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:11,311] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:11,313] - <==      Total: 1
+[DEBUG][2015-06-08 15:40:11,313] - <==      Total: 1
+[INFO ][2015-06-08 15:40:19,163] - {"accessTime":"2015-06-08 15:40:19","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:40:19,163] - {"accessTime":"2015-06-08 15:40:19","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:40:19,164] - slave
+[INFO ][2015-06-08 15:40:19,165] - {"accessTime":"2015-06-08 15:40:19","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-08 15:40:19,165] - {"accessTime":"2015-06-08 15:40:19","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749219114"]}}
+[INFO ][2015-06-08 15:40:19,166] - slave
+[INFO ][2015-06-08 15:40:19,166] - slave
+[INFO ][2015-06-08 15:40:19,167] - slave
+[INFO ][2015-06-08 15:40:19,168] - {"accessTime":"2015-06-08 15:40:19","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-08 15:40:19,169] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:19,169] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:40:19,169] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:19,173] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:19,173] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[INFO ][2015-06-08 15:40:19,173] - {"accessTime":"2015-06-08 15:40:19","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[DEBUG][2015-06-08 15:40:19,174] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[INFO ][2015-06-08 15:40:19,174] - slave
+[DEBUG][2015-06-08 15:40:19,175] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:19,175] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:40:19,175] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-08 15:40:19,176] - <==      Total: 10
+[DEBUG][2015-06-08 15:40:19,179] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:19,179] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:40:19,180] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:40:19,181] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:19,181] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:40:19,181] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:40:19,182] - <==      Total: 17
+[DEBUG][2015-06-08 15:40:19,183] - <==      Total: 1
+[INFO ][2015-06-08 15:40:19,184] - slave
+[DEBUG][2015-06-08 15:40:19,184] - <==      Total: 22
+[DEBUG][2015-06-08 15:40:19,187] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:19,187] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:19,188] - <==      Total: 3
+[DEBUG][2015-06-08 15:40:19,189] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:19,191] - <==      Total: 1
+[INFO ][2015-06-08 15:40:19,194] - slave
+[DEBUG][2015-06-08 15:40:19,206] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:19,206] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:19,207] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:40:19,208] - <==      Total: 1
+[INFO ][2015-06-08 15:40:37,612] - {"accessTime":"2015-06-08 15:40:37","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749237571"]}}
+[INFO ][2015-06-08 15:40:37,612] - {"accessTime":"2015-06-08 15:40:37","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-08 15:40:37,612] - slave
+[INFO ][2015-06-08 15:40:37,612] - {"accessTime":"2015-06-08 15:40:37","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:40:37,613] - slave
+[INFO ][2015-06-08 15:40:37,613] - slave
+[INFO ][2015-06-08 15:40:37,614] - {"accessTime":"2015-06-08 15:40:37","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:40:37,614] - slave
+[DEBUG][2015-06-08 15:40:37,617] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:37,617] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:40:37,618] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:40:37,619] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:37,619] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:40:37,619] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-08 15:40:37,620] - <==      Total: 1
+[DEBUG][2015-06-08 15:40:37,621] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:37,621] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:40:37,621] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-08 15:40:37,623] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:37,623] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[INFO ][2015-06-08 15:40:37,623] - {"accessTime":"2015-06-08 15:40:37","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:40:37,623] - {"accessTime":"2015-06-08 15:40:37","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:40:37,624] - slave
+[DEBUG][2015-06-08 15:40:37,624] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:37,628] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:37,628] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:40:37,628] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:40:37,631] - <==      Total: 22
+[DEBUG][2015-06-08 15:40:37,637] - <==      Total: 10
+[DEBUG][2015-06-08 15:40:37,641] - <==      Total: 17
+[DEBUG][2015-06-08 15:40:37,645] - <==      Total: 3
+[INFO ][2015-06-08 15:40:37,647] - slave
+[INFO ][2015-06-08 15:40:37,650] - slave
+[DEBUG][2015-06-08 15:40:37,652] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:37,652] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:37,653] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:37,655] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:37,655] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:37,655] - <==      Total: 1
+[DEBUG][2015-06-08 15:40:37,657] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:40:37,658] - <==      Total: 1
+[INFO ][2015-06-08 15:40:50,371] - {"accessTime":"2015-06-08 15:40:50","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749250332"]}}
+[INFO ][2015-06-08 15:40:50,372] - slave
+[INFO ][2015-06-08 15:40:50,374] - {"accessTime":"2015-06-08 15:40:50","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:40:50,375] - {"accessTime":"2015-06-08 15:40:50","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-08 15:40:50,376] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:50,377] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:40:50,377] - ==> Parameters: 1(Integer)
+[INFO ][2015-06-08 15:40:50,378] - {"accessTime":"2015-06-08 15:40:50","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:40:50,378] - {"accessTime":"2015-06-08 15:40:50","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:40:50,378] - slave
+[INFO ][2015-06-08 15:40:50,380] - slave
+[INFO ][2015-06-08 15:40:50,380] - {"accessTime":"2015-06-08 15:40:50","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-08 15:40:50,386] - slave
+[INFO ][2015-06-08 15:40:50,387] - slave
+[DEBUG][2015-06-08 15:40:50,390] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:50,390] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:40:50,390] - <==      Total: 22
+[DEBUG][2015-06-08 15:40:50,391] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:50,391] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:40:50,391] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:40:50,391] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:40:50,391] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:50,391] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:40:50,392] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:50,392] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:50,392] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:40:50,393] - <==      Total: 1
+[DEBUG][2015-06-08 15:40:50,393] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-08 15:40:50,421] - <==      Total: 3
+[DEBUG][2015-06-08 15:40:50,426] - <==      Total: 17
+[DEBUG][2015-06-08 15:40:50,427] - <==      Total: 10
+[INFO ][2015-06-08 15:40:50,430] - slave
+[DEBUG][2015-06-08 15:40:50,434] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[INFO ][2015-06-08 15:40:50,434] - slave
+[DEBUG][2015-06-08 15:40:50,434] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:50,434] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:40:50,437] - <==      Total: 1
+[DEBUG][2015-06-08 15:40:50,437] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:40:50,437] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:40:50,438] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:40:50,439] - <==      Total: 1
+[INFO ][2015-06-08 15:41:14,933] - {"accessTime":"2015-06-08 15:41:14","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/race/event_info.do","requestURI":"/race/event_info.do","contextPath":"","contentType":"application/x-www-form-urlencoded","contextLength":43,"method":"POST","parameterMap":{"infoId":["9508de9b-a43a-45a7-a331-a5f26afd8125"]}}
+[INFO ][2015-06-08 15:41:15,190] - {"accessTime":"2015-06-08 15:41:15","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:41:15,190] - {"accessTime":"2015-06-08 15:41:15","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/race/ajaxJumpInfos.do","requestURI":"/race/ajaxJumpInfos.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":43,"method":"POST","parameterMap":{"raceId":["9508de9b-a43a-45a7-a331-a5f26afd8125"]}}
+[INFO ][2015-06-08 15:41:15,195] - slave
+[DEBUG][2015-06-08 15:41:15,198] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:15,198] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and id = ? ) 
+[DEBUG][2015-06-08 15:41:15,199] - ==> Parameters: 1(Integer), 9508de9b-a43a-45a7-a331-a5f26afd8125(String)
+[DEBUG][2015-06-08 15:41:15,201] - <==      Total: 1
+[INFO ][2015-06-08 15:41:15,207] - slave
+[DEBUG][2015-06-08 15:41:15,209] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:15,209] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type where id = ? 
+[DEBUG][2015-06-08 15:41:15,210] - ==> Parameters: 1(String)
+[DEBUG][2015-06-08 15:41:15,212] - <==      Total: 1
+[INFO ][2015-06-08 15:41:15,219] - slave
+[DEBUG][2015-06-08 15:41:15,232] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:15,232] - ==>  Preparing: select id, race_id, team_id, team_name, race_score, create_time, last_update_time, stat from juju_race_team WHERE ( stat = ? and race_id = ? ) 
+[DEBUG][2015-06-08 15:41:15,233] - ==> Parameters: 1(Integer), 9508de9b-a43a-45a7-a331-a5f26afd8125(String)
+[DEBUG][2015-06-08 15:41:15,235] - <==      Total: 5
+[INFO ][2015-06-08 15:41:40,648] - {"accessTime":"2015-06-08 15:41:40","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:41:40,648] - {"accessTime":"2015-06-08 15:41:40","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:41:40,649] - slave
+[INFO ][2015-06-08 15:41:40,651] - slave
+[INFO ][2015-06-08 15:41:40,650] - {"accessTime":"2015-06-08 15:41:40","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749300622"]}}
+[INFO ][2015-06-08 15:41:40,652] - slave
+[INFO ][2015-06-08 15:41:40,652] - {"accessTime":"2015-06-08 15:41:40","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[DEBUG][2015-06-08 15:41:40,653] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:40,653] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[INFO ][2015-06-08 15:41:40,653] - slave
+[INFO ][2015-06-08 15:41:40,653] - {"accessTime":"2015-06-08 15:41:40","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[DEBUG][2015-06-08 15:41:40,653] - ==> Parameters: 1(Integer), 7(String)
+[INFO ][2015-06-08 15:41:40,655] - slave
+[DEBUG][2015-06-08 15:41:40,657] - <==      Total: 1
+[DEBUG][2015-06-08 15:41:40,657] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:40,657] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:41:40,657] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:40,657] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:41:40,658] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[INFO ][2015-06-08 15:41:40,658] - {"accessTime":"2015-06-08 15:41:40","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-08 15:41:40,658] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-08 15:41:40,658] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:40,658] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:41:40,658] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:41:40,659] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:40,659] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:41:40,659] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:41:40,667] - <==      Total: 3
+[DEBUG][2015-06-08 15:41:40,667] - <==      Total: 17
+[DEBUG][2015-06-08 15:41:40,669] - <==      Total: 10
+[INFO ][2015-06-08 15:41:40,671] - slave
+[DEBUG][2015-06-08 15:41:40,673] - <==      Total: 22
+[INFO ][2015-06-08 15:41:40,674] - slave
+[DEBUG][2015-06-08 15:41:40,675] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:40,675] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:40,675] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:41:40,677] - <==      Total: 1
+[DEBUG][2015-06-08 15:41:40,678] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:40,678] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:40,678] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:41:40,680] - <==      Total: 1
+[INFO ][2015-06-08 15:41:48,658] - {"accessTime":"2015-06-08 15:41:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749308629"]}}
+[INFO ][2015-06-08 15:41:48,659] - {"accessTime":"2015-06-08 15:41:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:41:48,659] - {"accessTime":"2015-06-08 15:41:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:41:48,659] - slave
+[INFO ][2015-06-08 15:41:48,660] - slave
+[INFO ][2015-06-08 15:41:48,660] - slave
+[INFO ][2015-06-08 15:41:48,661] - {"accessTime":"2015-06-08 15:41:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-08 15:41:48,663] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:48,663] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:41:48,663] - ==> Parameters: 1(Integer)
+[INFO ][2015-06-08 15:41:48,664] - {"accessTime":"2015-06-08 15:41:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:41:48,664] - {"accessTime":"2015-06-08 15:41:48","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-08 15:41:48,665] - slave
+[INFO ][2015-06-08 15:41:48,666] - slave
+[DEBUG][2015-06-08 15:41:48,666] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:48,666] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:41:48,666] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:41:48,669] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:48,669] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:41:48,670] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:48,671] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:41:48,671] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:41:48,672] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:48,672] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:41:48,672] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-08 15:41:48,672] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:41:48,674] - <==      Total: 3
+[DEBUG][2015-06-08 15:41:48,676] - <==      Total: 22
+[DEBUG][2015-06-08 15:41:48,676] - <==      Total: 1
+[DEBUG][2015-06-08 15:41:48,679] - <==      Total: 17
+[DEBUG][2015-06-08 15:41:48,682] - <==      Total: 10
+[INFO ][2015-06-08 15:41:48,682] - slave
+[DEBUG][2015-06-08 15:41:48,684] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:48,685] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:48,685] - ==> Parameters: 1(Integer), 2(Integer)
+[INFO ][2015-06-08 15:41:48,686] - slave
+[DEBUG][2015-06-08 15:41:48,688] - <==      Total: 1
+[DEBUG][2015-06-08 15:41:48,689] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:48,689] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:48,690] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:41:48,693] - <==      Total: 1
+[INFO ][2015-06-08 15:41:51,234] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:41:51,235] - slave
+[DEBUG][2015-06-08 15:41:51,240] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,240] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:41:51,240] - ==> Parameters: 1(Integer), 1(Integer)
+[INFO ][2015-06-08 15:41:51,243] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749311211"]}}
+[INFO ][2015-06-08 15:41:51,243] - slave
+[INFO ][2015-06-08 15:41:51,247] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[DEBUG][2015-06-08 15:41:51,248] - <==      Total: 10
+[INFO ][2015-06-08 15:41:51,250] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[INFO ][2015-06-08 15:41:51,251] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:41:51,251] - slave
+[INFO ][2015-06-08 15:41:51,251] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:41:51,252] - slave
+[DEBUG][2015-06-08 15:41:51,254] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,254] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[INFO ][2015-06-08 15:41:51,254] - slave
+[DEBUG][2015-06-08 15:41:51,255] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-08 15:41:51,255] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,256] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:41:51,256] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[INFO ][2015-06-08 15:41:51,256] - slave
+[DEBUG][2015-06-08 15:41:51,261] - <==      Total: 17
+[DEBUG][2015-06-08 15:41:51,261] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,261] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:41:51,262] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:41:51,262] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,262] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:41:51,262] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:41:51,264] - <==      Total: 22
+[DEBUG][2015-06-08 15:41:51,264] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,264] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:51,264] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:41:51,265] - <==      Total: 1
+[DEBUG][2015-06-08 15:41:51,267] - <==      Total: 1
+[DEBUG][2015-06-08 15:41:51,267] - <==      Total: 3
+[INFO ][2015-06-08 15:41:51,276] - slave
+[DEBUG][2015-06-08 15:41:51,284] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,284] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:51,285] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:41:51,290] - <==      Total: 1
+[INFO ][2015-06-08 15:41:51,711] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/index.do","requestURI":"/api/home/index.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":15,"method":"POST","parameterMap":{"t":["1433749311682"]}}
+[INFO ][2015-06-08 15:41:51,711] - slave
+[INFO ][2015-06-08 15:41:51,712] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/newsList.do","requestURI":"/api/home/newsList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:41:51,713] - slave
+[INFO ][2015-06-08 15:41:51,714] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/umanages/loadInfo.do","requestURI":"/umanages/loadInfo.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:41:51,714] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contextLength":0,"method":"POST","parameterMap":{}}
+[INFO ][2015-06-08 15:41:51,714] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/address/list.do","requestURI":"/address/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":23,"method":"POST","parameterMap":{"parentId":["310100"],"level":["3"]}}
+[DEBUG][2015-06-08 15:41:51,715] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,715] - ==>  Preparing: select id, page, data_key, data_value, order_tag, create_time, last_update_time, stat from juju_home_page_config WHERE ( stat = ? ) order by order_tag asc 
+[DEBUG][2015-06-08 15:41:51,715] - ==> Parameters: 1(Integer)
+[DEBUG][2015-06-08 15:41:51,716] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,716] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[INFO ][2015-06-08 15:41:51,716] - slave
+[DEBUG][2015-06-08 15:41:51,716] - ==> Parameters: 1(Integer), 2(Integer)
+[INFO ][2015-06-08 15:41:51,717] - slave
+[INFO ][2015-06-08 15:41:51,718] - {"accessTime":"2015-06-08 15:41:51","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/api/home/eventList.do","requestURI":"/api/home/eventList.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":11,"method":"POST","parameterMap":{"pageSize":["10"]}}
+[INFO ][2015-06-08 15:41:51,723] - slave
+[DEBUG][2015-06-08 15:41:51,724] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,724] - ==>  Preparing: select id, parent_id, name, level, create_time, last_update_time, stat from juju_addresses WHERE ( stat = ? and level = ? and parent_id = ? ) 
+[DEBUG][2015-06-08 15:41:51,724] - ==> Parameters: 1(Integer), 3(Integer), 310100(String)
+[DEBUG][2015-06-08 15:41:51,725] - <==      Total: 3
+[DEBUG][2015-06-08 15:41:51,725] - <==      Total: 22
+[DEBUG][2015-06-08 15:41:51,725] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,725] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 15:41:51,726] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 15:41:51,729] - <==      Total: 1
+[DEBUG][2015-06-08 15:41:51,729] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,729] - ==>  Preparing: select id, info_type, sport_type_id, title, pic, context, organizers, create_time, last_update_time, stat from juju_race_info WHERE ( stat = ? and info_type = ? ) order by create_time desc limit 0, 10 
+[DEBUG][2015-06-08 15:41:51,729] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:41:51,729] - <==      Total: 17
+[INFO ][2015-06-08 15:41:51,730] - slave
+[DEBUG][2015-06-08 15:41:51,736] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,736] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:51,736] - <==      Total: 10
+[DEBUG][2015-06-08 15:41:51,736] - ==> Parameters: 1(Integer), 2(Integer)
+[DEBUG][2015-06-08 15:41:51,747] - <==      Total: 1
+[INFO ][2015-06-08 15:41:51,751] - slave
+[DEBUG][2015-06-08 15:41:51,759] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:41:51,759] - ==>  Preparing: select count(*) from juju_race_info WHERE ( stat = ? and info_type = ? ) 
+[DEBUG][2015-06-08 15:41:51,759] - ==> Parameters: 1(Integer), 1(Integer)
+[DEBUG][2015-06-08 15:41:51,763] - <==      Total: 1
+[INFO ][2015-06-08 15:42:11,008] - {"accessTime":"2015-06-08 15:42:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/wuweiUserlist.do","requestURI":"/sportType/wuweiUserlist.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":48,"method":"POST","parameterMap":{"address":["徐汇区"],"name":[""],"age":["14"]}}
+[INFO ][2015-06-08 15:42:11,018] - slave
+[DEBUG][2015-06-08 15:42:11,022] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:42:11,022] - ==>  Preparing: SELECT a.id, a. NAME, b.age, b.address FROM wuwei_user a, wuwei_user_detail b WHERE a.id = b.userId and b.age = ? and b.address = ? 
+[DEBUG][2015-06-08 15:42:11,022] - ==> Parameters: 14(String), 徐汇区(String)
+[INFO ][2015-06-08 15:42:11,067] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO ][2015-06-08 15:42:11,093] - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO ][2015-06-08 15:42:20,348] - {"accessTime":"2015-06-08 15:42:20","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/wuweiUserlist.do","requestURI":"/sportType/wuweiUserlist.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":48,"method":"POST","parameterMap":{"address":["徐汇区"],"name":[""],"age":["14"]}}
+[INFO ][2015-06-08 15:42:20,350] - slave
+[DEBUG][2015-06-08 15:42:20,353] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 15:42:20,353] - ==>  Preparing: SELECT a.id, a. NAME, b.age, b.address FROM wuwei_user a, wuwei_user_detail b WHERE a.id = b.userId and b.age = ? and b.address = ? 
+[DEBUG][2015-06-08 15:42:20,354] - ==> Parameters: 14(String), 徐汇区(String)
+[INFO ][2015-06-08 16:55:59,301] - Root WebApplicationContext: initialization started
+[INFO ][2015-06-08 16:55:59,390] - Refreshing Root WebApplicationContext: startup date [Mon Jun 08 16:55:59 CST 2015]; root of context hierarchy
+[INFO ][2015-06-08 16:55:59,429] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2015-06-08 16:56:00,049] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/persistence.xml]
+[INFO ][2015-06-08 16:56:00,110] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2015-06-08 16:56:00,129] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2015-06-08 16:56:00,149] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/elasticsearch.xml]
+[INFO ][2015-06-08 16:56:00,749] - Loading properties file from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/application.properties]
+[INFO ][2015-06-08 16:56:01,100] - Loading properties file from class path resource [application.properties]
+[INFO ][2015-06-08 16:56:04,324] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2015-06-08 16:56:04,621] - [Agent Axis] loaded [], sites []
+[INFO ][2015-06-08 16:56:05,302] - adding transport node : 192.168.1.156:9300
+[ERROR][2015-06-08 16:56:07,725] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[ERROR][2015-06-08 16:56:07,783] - failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+[INFO ][2015-06-08 16:56:07,831] - Root WebApplicationContext: initialization completed in 8530 ms
+[INFO ][2015-06-08 16:56:07,831] - ###### juju-home application start ######
+[INFO ][2015-06-08 16:56:07,885] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2015-06-08 16:56:07,887] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Mon Jun 08 16:56:07 CST 2015]; parent: Root WebApplicationContext
+[INFO ][2015-06-08 16:56:07,888] - Loading XML bean definitions from URL [file:/E:/workspaces/juju_sport/juju-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2015-06-08 16:56:08,330] - Mapped URL path [/address/list.do] onto handler 'addressesController'
+[INFO ][2015-06-08 16:56:08,330] - Mapped URL path [/address/listByParentId.do] onto handler 'addressesController'
+[INFO ][2015-06-08 16:56:08,330] - Mapped URL path [/api/success.do] onto handler 'alipayController'
+[INFO ][2015-06-08 16:56:08,330] - Mapped URL path [/api/notifyUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-08 16:56:08,330] - Mapped URL path [/api/returnUrl.do] onto handler 'alipayController'
+[INFO ][2015-06-08 16:56:08,330] - Mapped URL path [/api/saveCard.do] onto handler 'cardController'
+[INFO ][2015-06-08 16:56:08,331] - Mapped URL path [/complaint/insertComplaint.do] onto handler 'complaintController'
+[INFO ][2015-06-08 16:56:08,331] - Mapped URL path [/draw/drawRandom.do] onto handler 'drawRandomController'
+[INFO ][2015-06-08 16:56:08,331] - Mapped URL path [/email/send.do] onto handler 'emailController'
+[INFO ][2015-06-08 16:56:08,331] - Mapped URL path [/email/validate.do] onto handler 'emailController'
+[INFO ][2015-06-08 16:56:08,331] - Mapped URL path [/exchange/query.do] onto handler 'exchangeController'
+[INFO ][2015-06-08 16:56:08,331] - Mapped URL path [/exchange/exchange.do] onto handler 'exchangeController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/family/getHeath.do] onto handler 'familyController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/family/getLetter.do] onto handler 'familyController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/family/getSpecifications.do] onto handler 'familyController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/family/getSportExaminationList.do] onto handler 'familyController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/family/getSportIntroductionList.do] onto handler 'familyController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/family/getSportIntroductionListAll.do] onto handler 'familyController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/family/getSportIntroductionDetail.do] onto handler 'familyController'
+[INFO ][2015-06-08 16:56:08,332] - Mapped URL path [/api/rest/checkUser.do] onto handler 'deviceUsersController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/rest/phone/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/rest/tdc/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/rest/venues/info.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/rest/card/getticket.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/rest/venues/updateInfoByTdc.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/rest/venues/updateInfoByPhone.do] onto handler 'venuesHttpApiController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/home/index.do] onto handler 'indexController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/home/newsList.do] onto handler 'indexController'
+[INFO ][2015-06-08 16:56:08,333] - Mapped URL path [/api/home/eventList.do] onto handler 'indexController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/notifyUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/returnUrl.do] onto handler 'alipayMController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/code/create.do] onto handler 'dimensionCodeController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/messages/loadMessages.do] onto handler 'messageMController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/orderBuy/buy.do] onto handler 'orderBuyMController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 16:56:08,334] - Mapped URL path [/api/m/preOrder/data.do] onto handler 'preOrderMController'
+[INFO ][2015-06-08 16:56:08,335] - Mapped URL path [/api/m/SMS/send.do] onto handler 'smsMController'
+[INFO ][2015-06-08 16:56:08,335] - Mapped URL path [/api/m/team/findTeams.do] onto handler 'teamMController'
+[INFO ][2015-06-08 16:56:08,335] - Mapped URL path [/api/m/upload/deal.do] onto handler 'uploadMController'
+[INFO ][2015-06-08 16:56:08,335] - Mapped URL path [/api/m/umanages/register.do] onto handler 'userMController'
+[INFO ][2015-06-08 16:56:08,335] - Mapped URL path [/api/m/umanages/login.do] onto handler 'userMController'
+[INFO ][2015-06-08 16:56:08,335] - Mapped URL path [/api/m/venue/query.do] onto handler 'venueMController'
+[INFO ][2015-06-08 16:56:08,335] - Mapped URL path [/api/m/version/query.do] onto handler 'versionController'
+[INFO ][2015-06-08 16:56:08,336] - Mapped URL path [/api/message/findVenusMess.do] onto handler 'messageController'
+[INFO ][2015-06-08 16:56:08,336] - Mapped URL path [/api/message/insert.do] onto handler 'messageController'
+[INFO ][2015-06-08 16:56:08,336] - Mapped URL path [/api/message/findComplaint.do] onto handler 'messageController'
+[INFO ][2015-06-08 16:56:08,336] - Mapped URL path [/api/message/findOrderByMess.do] onto handler 'messageController'
+[INFO ][2015-06-08 16:56:08,336] - Mapped URL path [/api/message/findMessByOwner.do] onto handler 'messageController'
+[INFO ][2015-06-08 16:56:08,336] - Mapped URL path [/myMessage/findMyMessageby.do] onto handler 'myMessageController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/api/orderBuy/{orderId}.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/api/orderBuy/buy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/api/orderBuy/checkBuy.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/api/orderBuy/payWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/api/orderBuy/teamWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/api/orderBuy/orderWait.do] onto handler 'orderBuyController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/order/operation.do] onto handler 'orderController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/order/userList.do] onto handler 'orderController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/order/items/list.do] onto handler 'orderController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/order/registration.do] onto handler 'orderController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/order/items/search.do] onto handler 'orderController'
+[INFO ][2015-06-08 16:56:08,337] - Mapped URL path [/order/showRaceInfos.do] onto handler 'orderController'
+[INFO ][2015-06-08 16:56:08,338] - Mapped URL path [/pay/index.do] onto handler 'payController'
+[INFO ][2015-06-08 16:56:08,338] - Mapped URL path [/preOrder/dateList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 16:56:08,338] - Mapped URL path [/preOrder/hourList/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 16:56:08,338] - Mapped URL path [/preOrder/spaceLists/{ownerAccountId}.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 16:56:08,338] - Mapped URL path [/preOrder/weatherList.do] onto handler 'preOrderController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/race/loadRaceScore.do] onto handler 'raceController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/race/poly_event.do] onto handler 'raceController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/race/event_info.do] onto handler 'raceController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/race/ajaxJumpInfos.do] onto handler 'raceController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/race/findDetail.do] onto handler 'raceController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/race/findAll.do] onto handler 'raceController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/serviceType/list.do] onto handler 'serviceTypeController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/SMS/send.do] onto handler 'SMSController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/SMS/validate.do] onto handler 'SMSController'
+[INFO ][2015-06-08 16:56:08,339] - Mapped URL path [/SMS/validatePhone.do] onto handler 'SMSController'
+[INFO ][2015-06-08 16:56:08,340] - Mapped URL path [/space/list.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,340] - Mapped URL path [/space/save.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,340] - Mapped URL path [/space/delete.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,340] - Mapped URL path [/space/#.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,340] - Mapped URL path [/space/jumpInfos.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,340] - Mapped URL path [/space/updateSpaceMaster.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,340] - Mapped URL path [/space/update.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/space/findSearch.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/space/insertSave.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/space/findOpen.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/space/findAll.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/space/findUpdateInfo.do] onto handler 'spaceController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/sportType/list.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/sportType/wuweiUserlist.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/sportType/findByStad] onto handler 'sportTypeController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/sportType/findByStad.*] onto handler 'sportTypeController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/sportType/findByStad/] onto handler 'sportTypeController'
+[INFO ][2015-06-08 16:56:08,341] - Mapped URL path [/sportType/findAll.do] onto handler 'sportTypeController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/{ownerAccountId}.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/jumpInfos.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/registerSite.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/findStadByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/showVenues.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/addOrUpdateStadiumInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/showVenuesInfo.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/findvenuesMessage.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,342] - Mapped URL path [/stadium/message.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,343] - Mapped URL path [/stadium/findNameBySportType.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,343] - Mapped URL path [/stadium/findChooseByAdd.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,343] - Mapped URL path [/stadium/findStadByName.do] onto handler 'stadiumController'
+[INFO ][2015-06-08 16:56:08,343] - Mapped URL path [/api/temp/upload.do] onto handler 'tempUploadController'
+[INFO ][2015-06-08 16:56:08,343] - Mapped URL path [/api//upload.do] onto handler 'uploadController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/register.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/login.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/checkrepeat.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/drawRandom.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/modifyPwd.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/check_OPW.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/showUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/loginout.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/loadInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/umanages.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/loadEmail.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/addOrUpdateUserInfo.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,344] - Mapped URL path [/umanages/regUserByThird.do] onto handler 'userController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/join.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/save.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/cancel.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/list.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/findTeams.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/findBy.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/modify.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/joinlist.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,345] - Mapped URL path [/user/team/showInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,346] - Mapped URL path [/user/team/releaseFright.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,346] - Mapped URL path [/user/team/showMembersInfo.do] onto handler 'userTeamController'
+[INFO ][2015-06-08 16:56:08,361] - FrameworkServlet 'appServlet': initialization completed in 476 ms
+[INFO ][2015-06-08 16:58:27,758] - {"accessTime":"2015-06-08 16:58:27","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":48,"method":"POST","parameterMap":{"address":["徐汇区"],"name":[""],"age":["14"]}}
+[INFO ][2015-06-08 16:58:27,792] - slave
+[DEBUG][2015-06-08 16:58:28,088] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 16:58:28,091] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 16:58:28,112] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 16:58:28,129] - <==      Total: 1
+[INFO ][2015-06-08 17:05:11,118] - {"accessTime":"2015-06-08 17:05:11","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":48,"method":"POST","parameterMap":{"address":["徐汇区"],"name":[""],"age":["14"]}}
+[INFO ][2015-06-08 17:05:18,716] - slave
+[DEBUG][2015-06-08 17:05:18,718] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 17:05:18,718] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 17:05:18,728] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 17:05:18,728] - <==      Total: 1
+[INFO ][2015-06-08 17:06:01,239] - {"accessTime":"2015-06-08 17:06:01","host":"127.0.0.1:8081","requestURL":"http://127.0.0.1:8081/sportType/list.do","requestURI":"/sportType/list.do","contextPath":"","contentType":"application/x-www-form-urlencoded; charset\u003dUTF-8","contextLength":48,"method":"POST","parameterMap":{"address":["徐汇区"],"name":[""],"age":["14"]}}
+[INFO ][2015-06-08 17:06:44,587] - slave
+[DEBUG][2015-06-08 17:06:44,601] - ooo Using Connection [jdbc:mysql://192.168.1.139:3306/juju-sport?characterEncoding=utf-8&useUnicode=true, UserName=juju@192.168.1.129, MySQL Connector Java]
+[DEBUG][2015-06-08 17:06:44,603] - ==>  Preparing: select id, sport_name, create_time, last_update_time, stat from juju_sport_type WHERE ( stat = ? and id = ? ) order by id ASC 
+[DEBUG][2015-06-08 17:06:44,605] - ==> Parameters: 1(Integer), 7(String)
+[DEBUG][2015-06-08 17:06:44,611] - <==      Total: 1

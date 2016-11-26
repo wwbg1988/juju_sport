@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.logger.mapper.SystemExceptionMapper" >
+	
+	 <insert id="insert" >
+	 	insert into ${tableName} (id, error_message, error_stack_trace, create_time)
+	 	values (#{exception.id,jdbcType=VARCHAR}, #{exception.errorMessage,jdbcType=VARCHAR}, #{exception.errorStackTrace,jdbcType=LONGVARCHAR}, 
+       	#{exception.createTime,jdbcType=TIMESTAMP})
+	 </insert>
+	
+</mapper>

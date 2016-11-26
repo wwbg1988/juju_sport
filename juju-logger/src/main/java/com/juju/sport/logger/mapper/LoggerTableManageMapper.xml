@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.logger.mapper.LoggerTableManageMapper" >
+	
+	 <select id="count" resultType="java.lang.Long" >
+		SELECT count(*) FROM INFORMATION_SCHEMA.TABLES where table_name=#{tableName}
+	 </select>
+	
+	<update id="createBussinessExceptionTable" >
+		create table ${tableName} (
+			id varchar(36) NOT NULL,
+			error_code varchar(30) NOT NULL,
+			error_message varchar(500) NOT NULL,
+			error_stack_trace text NOT NULL,
+			request_url varchar(100) NOT NULL,
+			request_params varchar(2000) NOT NULL,
+			login_user_account varchar(50) NOT NULL,
+			create_time datetime NOT NULL,
+			PRIMARY KEY(id)	
+		)
+	</update>
+	
+	<update id="createSystemExceptionTable" >
+		create table ${tableName} (
+			id varchar(36) NOT NULL,
+			error_message varchar(255) NOT NULL,
+			error_stack_trace text NOT NULL,
+			create_time datetime NOT NULL,
+			PRIMARY KEY(id)	
+		)
+	</update>
+</mapper>

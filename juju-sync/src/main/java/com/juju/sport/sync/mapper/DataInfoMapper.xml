@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.sync.mapper.DataInfoMapper" >
+
+   <select id="findByDBSync" parameterType="com.juju.sport.sync.pojo.DataSync" resultType="hashmap" >
+	  	<![CDATA[
+	    	select * from ${tableName} where ${keyName}=#{keyValue}
+	    ]]>
+   </select>
+  
+  
+    <update id="update" parameterType="java.lang.String" >
+		<![CDATA[
+			${sql}
+		]]>
+  	</update>
+
+	<insert id="save" parameterType="java.lang.String" >
+	 	<![CDATA[
+			${sql}
+		]]>
+	</insert>
+	
+	<delete id="delete" parameterType="com.juju.sport.sync.model.DataInfo" >
+   		<![CDATA[
+			delete from ${tableName} where ${keyName}=#{keyValue}
+		]]>
+  	</delete>
+	
+	<select id="count" parameterType="com.juju.sport.sync.model.DataInfo" resultType="java.lang.Integer" >
+   		<![CDATA[
+			select count(*) from ${tableName} where ${keyName}=#{keyValue}
+		]]>
+  	</select>
+	
+</mapper>

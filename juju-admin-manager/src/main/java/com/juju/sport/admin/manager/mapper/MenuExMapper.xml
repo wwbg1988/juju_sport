@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.admin.manager.mapper.MenuExMapper" >
+	
+	 <select id="findByAdminAccountId" resultMap="com.juju.sport.admin.manager.mapper.MenuMapper.BaseResultMap">
+	 	select func.* from admin_menu func, (
+		select menu_id from admin_account_menu 
+		where admin_account_id = #{accountId}
+		and stat=1
+		union
+		select menu_id from admin_role_menu 
+		where role_id = #{roleId} and stat=1
+		) mapping 
+		where func.id = mapping.menu_id and func.stat=1
+	 </select>
+	
+</mapper>

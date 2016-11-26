@@ -1,0 +1,11 @@
+WdRedisDao简化了对对象的操作，使得大多数对象不用写redis的dao类
+使用要求如下
+1，bean类必须使用RedisKeyPrefix annotation. 其中prefixValue值是改对象在redis中的key前缀
+	先说下应用的redis key的约定，示例如下
+	admin:AdminUserLoginInfoDto:accountCode:admin123
+	key有4部分组成,当中用“:”分割，分别是 1，模块名 2，类名 3，属性名 4， 属性值 
+	所谓prefixValue是admin:AdminUserLoginInfoDto:accountCode部分，即 模块名:类名:属性名
+2，调用WdRedisDao.set(obj)方法，会根据该对象的 属性名的实际值拼出实际key存入
+3，调用WdRedisDao.get(colVal, class)方法，colval应该是配置的 属性名的值所拼接的key所查询所得
+
+具体示例见com.wedding.admin.manger.dao.test.WdRedisDaoTest

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.user.mapper.UserExMapper" >
+	
+	 <select id="findByPage" resultType="com.juju.sport.user.dto.UsersDto">
+	 	select users.id id, users.user_account_id userAccountId, users.real_name realName, users.job job, users.provinceId provinceid, users.cityId cityid,
+			users.countryId countryid, users.address address, users.email email, users.mobile_no mobileNo, users.age age, users.user_image userImage, 
+			users.brithday brithday, users.nick_name nickName, users.charge_type chargeType, users.venue_type venueType, users.user_level userLevel,
+			users.user_score userScore, users.create_time createTime, users.last_update_time lastUpdateTime, users.stat stat, account.user_account userAccount
+	 	from juju_users users
+	 	left join juju_user_account account on users.user_account_id = account.id and account.stat = users.stat
+	 	where 1=1  
+	 	
+	 		<include refid="where_clause_1" />
+		limit #{page.startNum}, #{page.pageSize} 
+	 </select>
+	
+	 <select id="count" resultType="java.lang.Long"> 	
+		select count(*) from juju_users users
+	 	left join juju_user_account account on users.user_account_id = account.id and account.stat = users.stat
+	 	where 1=1  
+	 		<include refid="where_clause_1" />
+	 </select>
+	 
+	 <sql id="where_clause_1" >
+	 	<if test="query.realName != null" >
+	 		and users.real_name like #{query.realName}
+	 	</if>
+		<if test="query.userAccount != null" >
+			and account.user_account like #{query.userAccount} 
+		</if>	
+		<if test="query.provinceId != null" >
+			and users.provinceId = #{query.provinceId} 
+		</if>
+		<if test="query.cityId != null" >
+			and users.cityId = #{query.cityId} 
+		</if>
+		<if test="query.countryId != null" >
+			and users.countryId = #{query.countryId} 
+		</if>
+		<if test="query.stat != null" >
+			and users.stat = #{query.stat} 
+		</if>
+	 </sql>
+</mapper>

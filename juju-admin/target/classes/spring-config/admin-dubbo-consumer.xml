@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- Application name -->
+    <dubbo:application name="juju-admin"/>
+
+    <!-- registry address, used for service to register itself -->
+    <dubbo:registry address="${dubboRegistry}"/>
+
+    <!--user service-->
+    <dubbo:reference interface="com.wedding.items.service.IHunQingChannelItemsService" id="accountService" />
+    <dubbo:reference interface="com.wedding.items.service.IItemsConstantsService" id="addressService"/>
+    <dubbo:reference interface="com.wedding.items.service.IItemsTypePropertiesService" id="userProfileService"/>
+    <dubbo:reference interface="com.wedding.items.service.IItemsTypeService" id="userExtraService"/>
+    <dubbo:reference interface="com.wedding.items.service.ItemsDescService" id="userAccountSummaryService"/>
+    <dubbo:reference interface="com.wedding.items.service.ItemsService" id="userAccountSummaryService"/>
+</beans>

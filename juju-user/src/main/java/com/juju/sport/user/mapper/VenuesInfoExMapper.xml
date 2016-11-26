@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.juju.sport.user.mapper.VenuesInfoExMapper" >
+	
+	<select id="findVenusByLocation" resultType="com.juju.sport.user.dto.VenusInfoDto">
+		select id,user_account_id as userAccountId,provinceId,cityId,countryId,address,contacts,mobile_no as mobileNo,descs,email,nick_name as nickName,user_score as userScore,
+		venue_img as venueImg,max_num as maxNum,x_location as xLocation,y_location as yLocation,space_num as spaceNum 
+		from juju_venues_info where stat = 1 and user_account_id is not null
+	</select>
+	
+	 <select id="findCount" resultType="integer" parameterType="com.juju.sport.user.dto.VenusInfoDto"> 	
+	 	select count(*) from juju_venues_info info inner join juju_venues_sport_type_mapping mapp on info.id = mapp.venues_info_id 
+	 	<if test="venusInfoDto.otherServices != null" >
+	 		inner join juju_venues_service_type_mapping semap on info.id=semap.venues_info_id 
+	 	</if>
+	 		where mapp.stat=1 and provinceId=#{venusInfoDto.provinceid}
+	 		
+	 		
+	 <if test="venusInfoDto.id!=null">
+	 		and info.id=#{venusInfoDto.id}
+	 	</if>		
+	 		<if test="venusInfoDto.venueType!=null">
+	 				 and mapp.sport_type_id =#{venusInfoDto.venueType} 
+	 		</if>
+	 	<if test="venusInfoDto.nickName!=null">
+	 	 and info.nick_name like #{venusInfoDto.nickName}
+	 	</if>
+	 	<if test="venusInfoDto.otherServices != null" >
+	 		and semap.service_type_id=#{venusInfoDto.otherServices} and semap.stat=1
+	 	</if>
+	 	<if test="venusInfoDto.cityid!=null">
+	 		and info.cityId=#{venusInfoDto.cityid}
+	 	</if>
+	 	<if test="venusInfoDto.countryid!=null">
+	 		and info.countryId=#{venusInfoDto.countryid}
+	 	</if>
+	 	<if test="venusInfoDto.chargeType!=null">
+	 		and info.charge_type=#{venusInfoDto.chargeType}
+	 	</if>
+	 	<if test="venusInfoDto.teamType==1">
+	 		and mapp.sport_type_id=1 and mapp.stat=1
+	 	</if>
+	 	
+	 </select>
+ 
+	 	 <select id="findVenusInfo" resultType="com.juju.sport.user.pojo.VenuesInfo" parameterType="com.juju.sport.user.dto.VenusInfoDto"> 	
+	 	select DISTINCT info.space_num as spaceNum,info.id,info.user_account_id as userAccountId,info.provinceId,info.cityId,info.countryId,info.address,info.contacts,info.mobile_no as mobileNo,info.descs,info.charge_type as chargeType,info.venue_type as venueType,
+	 	info.other_services as otherServices,info.email,info.nick_name as nickName,info.user_level as userLevel,info.user_score as userScore,info.create_time as createTime,info.last_update_time as lastUpdateTime,info.stat,info.venue_img as venueImg,info.max_num as maxNum
+	 	  from juju_venues_info info inner join juju_venues_sport_type_mapping mapp on info.id = mapp.venues_info_id 
+	 	<if test="venusInfoDto.otherServices != null" >
+	 		inner join juju_venues_service_type_mapping semap on info.id=semap.venues_info_id 
+	 	</if>
+	 		where  mapp.stat=1 and provinceId=#{venusInfoDto.provinceid}
+	 	
+	 	
+	 	<if test="venusInfoDto.id!=null">
+	 		and info.id=#{venusInfoDto.id}
+	 	</if>	 		
+	 		
+	 		<if test="venusInfoDto.venueType!=null">
+	 				 and mapp.sport_type_id =#{venusInfoDto.venueType} 
+	 		</if>
+	 		<if test="venusInfoDto.nickName!=null">
+	 		 and info.nick_name like #{venusInfoDto.nickName}
+	 	</if>
+	 	<if test="venusInfoDto.otherServices != null" >
+	 		and semap.service_type_id=#{venusInfoDto.otherServices} and semap.stat=1
+	 	</if>
+	 	<if test="venusInfoDto.cityid!=null">
+	 		and info.cityId=#{venusInfoDto.cityid}
+	 	</if>
+	 	<if test="venusInfoDto.countryid!=null">
+	 		and info.countryId=#{venusInfoDto.countryid}
+	 	</if>
+	 	<if test="venusInfoDto.chargeType!=null">
+	 		and info.charge_type=#{venusInfoDto.chargeType}
+	 	</if>
+	 	<if test="venusInfoDto.teamType==1">
+	 		and mapp.sport_type_id=1 and mapp.stat=1
+	 	</if>
+
+	 	order by info.space_num desc,info.create_time desc limit #{venusInfoDto.startNum},#{venusInfoDto.pageSize}
+	 	
+	 </select>
+	 
+	 <select id="findVenusSportType" resultType="com.juju.sport.base.dto.SportTypeDto" parameterType="String">
+	 select DISTINCT type.id,type.sport_name as sportName,type.stat,type.create_time as createTime,type.last_update_time as lastUpdateTime from juju_venues_sport_type_mapping mapp inner join juju_sport_type type on mapp.sport_type_id = type.id 
+        where mapp.venues_info_id=#{VenusInfoId} and mapp.stat=1
+	 </select>
+	 
+	 <select id="findVenusServiceType" resultType="com.juju.sport.base.dto.ServiceTypeDto" parameterType="String">
+select DISTINCT type.id,type.service_name as serviceName,type.stat,type.create_time as createTime,type.last_update_time as lastUpdateTime from juju_venues_service_type_mapping mapp inner join juju_service_type type on mapp.service_type_id = type.id 
+ where mapp.venues_info_id=#{VenusInfoId} and mapp.stat=1
+	 </select>
+	 
+	 <select id="findNameBySportType" resultType="com.juju.sport.user.pojo.VenuesInfo" parameterType="com.juju.sport.user.dto.VenusInfoDto">
+	 	select info.nick_name as nickName,info.id as id from juju_venues_info info inner join juju_venues_sport_type_mapping mapp on info.id = mapp.venues_info_id where  mapp.stat=1  and mapp.sport_type_id = #{venusInfoDto.venueType}
+	 	 and info.countryId=#{venusInfoDto.countryid}
+	 </select>
+	 
+
+	 <select id="findByPage" resultType="com.juju.sport.user.dto.VenusInfoDto" >
+	 	select venues.id, venues.user_account_id userAccountId, venues.provinceId provinceid, venues.cityId cityid, venues.countryId countryid,
+			venues.address address, venues.contacts contacts, venues.mobile_no mobileNo, venues.descs descs, venues.charge_type chargeType,
+			venues.venue_type venueType, venues.other_services otherServices, venues.email email, venues.nick_name nickName, venues.user_level userLevel,
+			venues.user_score userScore, venues.create_time createTime, venues.last_update_time lastUpdateTime, venues.stat stat, venues.venue_img venueImg,
+			venues.max_num maxNum, venues.x_location xLocation, venues.y_location yLocation, account.user_account userAccount
+		from juju_venues_info venues
+		left join juju_user_account account on venues.user_account_id = account.id and account.stat=1	
+		where 1=1 
+		<include refid="where_clause_1" />
+		limit  #{page.startNum}, #{page.pageSize}
+	 </select>
+	 
+	 <select id="count" resultType="java.lang.Long" >
+	 	select count(*) 
+		from juju_venues_info venues
+		left join juju_user_account account on venues.user_account_id = account.id and account.stat=1	
+		where 1=1 
+		<include refid="where_clause_1" />
+	 </select>
+	 
+	 <sql id="where_clause_1" >
+	 	<if test="query.nickName != null" >
+	 		and venues.nick_name like #{query.nickName}
+	 	</if>
+		<if test="query.userAccount != null" >
+			and account.user_account like #{query.userAccount} 
+		</if>	
+		<if test="query.provinceId != null" >
+			and venues.provinceId = #{query.provinceId} 
+		</if>
+		<if test="query.cityId != null" >
+			and venues.cityId = #{query.cityId} 
+		</if>
+		<if test="query.countryId != null" >
+			and venues.countryId = #{query.countryId} 
+		</if>
+		<if test="query.stat != null" >
+			and venues.stat = #{query.stat} 
+		</if>
+	 </sql>
+	 
+</mapper>
